@@ -1,0 +1,13 @@
+Classes/Objects: Basics of OOP.
+
+Constructor: __init__ method.
+
+Instance/Class Variables: Differences and use cases.
+
+Inheritance: Single and multi-level.
+
+Polymorphism: Method overriding.
+
+Encapsulation: Private variables and methods.
+
+Dunder Methods: __str__, __len__, etc.

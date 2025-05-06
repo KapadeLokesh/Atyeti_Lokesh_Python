@@ -1,0 +1,7 @@
+Try-Except: Basic error handling.
+
+Multiple Excepts: Handle multiple exception types.
+
+Finally Block: Cleanup actions.
+
+Custom Exceptions: Define your own exception classes.

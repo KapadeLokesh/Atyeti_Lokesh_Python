@@ -1,0 +1,13 @@
+Functions: Define with def, return values.
+
+Arguments: Positional, keyword, default, *args, **kwargs.
+
+Lambda Functions: Anonymous functions.
+
+Recursion: Function calling itself.
+
+Scope: Local vs Global.
+
+Modules: Importing, creating custom modules.
+
+Packages: __init__.py, package structure.

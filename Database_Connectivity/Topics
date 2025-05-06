@@ -1,0 +1,9 @@
+SQLite: Use sqlite3 for embedded DB.
+
+MySQL/PostgreSQL: Connect with mysql-connector-python, psycopg2.
+
+CRUD Operations: Basic operations on tables.
+
+ORM with SQLAlchemy: Define models, queries.
+
+Flask Integration: Link DB with Flask apps.

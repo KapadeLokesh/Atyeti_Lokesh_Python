@@ -1,0 +1,11 @@
+REST Basics: Understand HTTP methods.
+
+Consuming APIs: Using requests to fetch data.
+
+Flask API: Create routes, handle JSON.
+
+CRUD: Implement GET, POST, PUT, DELETE.
+
+Error Handling: Handle HTTP errors.
+
+FastAPI (Optional): Async API framework.
