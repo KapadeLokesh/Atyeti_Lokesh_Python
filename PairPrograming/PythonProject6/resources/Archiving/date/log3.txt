@@ -1,0 +1,17 @@
+log3.txt 20250523
+2024-01-01 00:00:11,890 - WARNING - Deprecated function 'old_parser' used in module 'data_processor'.
+2024-01-01 00:00:12,123 - ERROR - NullPointerException in 'UserManager.getUserById(id=null)'.
+2024-01-01 00:00:13,456 - INFO - Scheduled task 'HourlyBackup' completed.
+2024-01-01 00:00:14,789 - INFO - API request received from 203.0.113.10 for /api/v1/status.
+2024-01-01 00:00:15,012 - DEBUG - Processing user input: 'search term'.
+2024-01-01 00:00:16,345 - WARNING - Failed login attempt for user 'guest' from 10.0.0.5.
+2024-01-01 00:00:17,678 - INFO - Configuration reloaded from 'config.yaml'.
+2024-01-01 00:00:18,901 - INFO - Service 'PaymentGateway' responded in 250ms.
+2024-01-01 00:00:19,234 - ERROR - File 'users.csv' not found in data directory.
+2024-01-01 00:00:20,567 - INFO - Health check successful for database service.
+2024-01-01 00:00:21,890 - DEBUG - Session created for user ID: 7890.
+2024-01-01 00:00:22,123 - INFO - Generating report 'SalesSummary_Q1'.
+2024-01-01 00:00:23,456 - WARNING - High CPU usage detected: 85%.
+2024-01-01 00:00:24,789 - INFO - Resource allocated: Memory=512MB.
+2024-01-01 00:00:25,012 - ERROR - Database write error: Duplicate key entry for 'order_id_54321'.
+"15"
