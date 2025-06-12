@@ -57,8 +57,6 @@ class LogProcessor:
         return extracted_files
 
     def process_txt_file(self, file_path):
-
-        file_name = os.path.basename(file_path)
         log_counts = {"INFO": 0, "WARNING": 0, "ERROR": 0}
         log_messages = {"INFO": [], "WARNING": [], "ERROR": []}
 
@@ -66,23 +64,23 @@ class LogProcessor:
             lines = [line.strip() for line in file.readlines()]
 
         if not lines:
-            print(f"Empty file: {file_name}")
+            print(f"Empty file: {os.path.basename(file_path)}")
             return None
 
         header = lines[0].split(",")
         if len(header) != 2 or not self.is_valid_date(header[1]):
-            print(f"Invalid header in file: {file_name}")
+            print(f"Invalid header in file: {os.path.basename(file_path)}")
             return None
 
         try:
             expected_count = int(lines[-1])
         except ValueError:
-            print(f"Invalid footer in file: {file_name}")
+            print(f"Invalid footer in file: {os.path.basename(file_path)}")
             return None
 
         content_lines = lines[1:-1]
         if expected_count != len(content_lines):
-            print(f"Line count mismatch in file: {file_name}. Expected {expected_count}, Found {len(content_lines)}.")
+            print(f"Line count mismatch in file: {file_path}. Expected {expected_count}, Found {len(content_lines)}.")
             return None
 
         for line in content_lines:
@@ -128,7 +126,7 @@ class LogProcessor:
 
         with open(output_path, 'w') as f:
             json.dump(data, f, indent=2)
-        print(f"JSON summary saved to {log_file}")
+        print(f"JSON summary saved to {os.path.basename(output_path)}")
 
 
 

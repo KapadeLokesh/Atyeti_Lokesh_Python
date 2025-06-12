@@ -1,6 +1,6 @@
 {
-  "file_name": "log4.txt",
-  "date_of_creation": "20250601102914",
+  "file_name": "log2.log",
+  "date_of_creation": "20250605112018",
   "log_levels": {
     "info": {
       "messages": [
@@ -19,13 +19,9 @@
         "2024-01-01 00:00:24,789 - INFO - Resource allocated: Memory=512MB.",
         "2024-01-01 00:00:26,345 - INFO - Security audit log: access granted to 'system_admin'.",
         "2024-01-01 00:00:28,901 - INFO - Notification queue processed: 10 messages.",
-        "2024-01-01 00:00:31,890 - INFO - User 'alice_g' updated profile information.",
-        "2025-05-20 10:02:20 WARNING  [PaymentGateway] - Payment gateway response delayed for order #1234572025-05-20 10:02:15 INFO  [AuthService] - User login successful for user: johndoe",
-        "2025-05-20 10:02:17 INFO  [OrderService] - Order #123456 placed successfully",
-        "2025-05-20 10:02:25 INFO  [InventoryService] - Inventory updated for product: SKU-9981",
-        "2025-05-20 10:02:30 INFO  [NotificationService] - Email sent to user: johndoe@example.com"
+        "2024-01-01 00:00:31,890 - INFO - User 'alice_g' updated profile information."
       ],
-      "count": 20
+      "count": 16
     },
     "error": {
       "messages": [
@@ -33,11 +29,9 @@
         "2024-01-01 00:00:12,123 - ERROR - NullPointerException in 'UserManager.getUserById(id=null)'.",
         "2024-01-01 00:00:19,234 - ERROR - File 'users.csv' not found in data directory.",
         "2024-01-01 00:00:25,012 - ERROR - Database write error: Duplicate key entry for 'order_id_54321'.",
-        "2024-01-01 00:00:30,567 - ERROR - Network timeout while fetching data from 'thirdparty.com'.",
-        "2025-05-20 10:02:40 ERROR  [OrderService] - Failed to place order #123458 due to insufficient stock",
-        "2025-05-20 10:02:27 ERROR  [DatabaseConnector] - Failed to connect to database: timeout after 5000ms"
+        "2024-01-01 00:00:30,567 - ERROR - Network timeout while fetching data from 'thirdparty.com'."
       ],
-      "count": 7
+      "count": 5
     },
     "warning": {
       "messages": [
@@ -45,10 +39,9 @@
         "2024-01-01 00:00:11,890 - WARNING - Deprecated function 'old_parser' used in module 'data_processor'.",
         "2024-01-01 00:00:16,345 - WARNING - Failed login attempt for user 'guest' from 10.0.0.5.",
         "2024-01-01 00:00:23,456 - WARNING - High CPU usage detected: 85%.",
-        "2024-01-01 00:00:29,234 - WARNING - Incompatible library version found: 'libxml2.so.6'.",
-        "2025-05-20 10:02:35 WARNING  [CacheManager] - Cache miss for key: user-session-456"
+        "2024-01-01 00:00:29,234 - WARNING - Incompatible library version found: 'libxml2.so.6'."
       ],
-      "count": 6
+      "count": 5
     }
   }
 }

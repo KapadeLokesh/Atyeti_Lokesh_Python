@@ -1,0 +1,20 @@
+{
+  "file_name": "inside.txt",
+  "date_of_creation": "20250612004615",
+  "log_levels": {
+    "info": {
+      "messages": [
+        "INFO ok"
+      ],
+      "count": 1
+    },
+    "error": {
+      "messages": [],
+      "count": 0
+    },
+    "warning": {
+      "messages": [],
+      "count": 0
+    }
+  }
+}
