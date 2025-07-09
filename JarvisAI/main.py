@@ -5,6 +5,29 @@ import speech_recognition as sr
 import datetime
 import openai
 from wikipedia import languages
+from config import apikey
+
+# def ai(prompt):
+#     openai.api_key = apikey
+#     response = openai.Completion.create(
+#         model="text-davinci-003",
+#         prompt=prompt,
+#         temperature=0.7,
+#         max_tokens=256,
+#     )
+#     text = f"OpenAI response for Prompt: {prompt} \n *************************\n\n"
+#     text += response["choices"][0]["text"]
+
+#     if not os.path.exists("Openai"):
+#         os.mkdir("Openai")
+
+#     with open(f"Openai/{''.join(prompt.split('intelligence')[1:30]).strip()}.txt", "w") as f:
+#         f.write(text)
+    
+#     say("AI response saved.")
+
+# def say(text):
+#     os.system(f'say "{text}"')
 
 def say(text):
         system = platform.system()
@@ -33,12 +56,17 @@ if __name__ == '__main__':
     while True:
         print("Listening....")
         query = takeCommand()
-        sites = [["youtube","https://www.youtube.com/"],["google","https://www.google.com/"],
-                 ["wikipedia","https://www.wikipedia.org/"]]
+
+        if "exit" in query.lower() or "quit" in query.lower() or "stop listening" in query.lower():
+            say("Goodbye. Have a great day!")
+            break
+
+        sites = [["youtube","https://www.youtube.com/"],["google","https://www.google.com"],
+                 ["wikipedia","https://www.wikipedia.org"]]
         for site in sites:
             if f"Open {site[0]}".lower() in query.lower():
                 say(f"Opening {site[0]}..")
-                webbrowser.open(site[0])
+                webbrowser.open(site[1])
 
             elif "open music" in query:
                 musicPath = "C:/Users/LokeshKapde/Downloads/filename.mp3"
@@ -50,10 +78,17 @@ if __name__ == '__main__':
 
             elif "open camera".lower() in query.lower():
                 os.system("start microsoft.windows.camera:")
+            
+            elif "exit" in query.lower() or "quit" in query.lower() or "stop listening" in query.lower():
+                    say("Goodbye. Have a great day!")
+                    break
+            
+            # elif "using ai".lower() in query.lower():
+            #     ai(prompt=query)
+                   
 
-            else:
-                pass
-            # say(text)
+            
+           
 
 
 
