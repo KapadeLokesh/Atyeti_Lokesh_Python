@@ -1,0 +1,260 @@
+# Options Trading Desk Capstone Project
+
+# Introduction
+
+This project involves completing three sections of work: 
+1. Data Loading 
+2. Data Cleaning 
+3. Data Analysis and Reporting - 3 worked problems:
+   - Quality of Execution  
+   - Profilability Analysis
+   - Profiling and Outlier Analysis 
+
+Where functions are required to be created test files have also been created that when run will 
+check the function against test cases - when all tests pass that function has been 
+created correctly (see FP.Functions.test). Pseudocode for the requested functions has also been 
+included as a commented preface within the testing files (so it only has to been seen if desired).
+
+
+# Final Project Background 
+You are working as a data analyst for the Options trading team of a large investment bank.
+
+![](./images/stock.jpeg) 
+
+Options are financial instruments whose value is derived from the value of underlying 
+securities such as stocks - aka Derivatives. An options contract offers the buyer the 
+opportunity to either buy or sell the underlying asset. 
+
+
+ - Call options allow the holder to buy the asset at a stated price within a 
+ specific timeframe.
+ - Put options allow the holder to sell the asset at a stated price within a 
+ specific timeframe.
+
+Each option contract will have a specific expiration date by which the holder must exercise 
+their option. The stated price on an option is known as the strike price. 
+
+Financial knowledge is not required for this course but will help provide context. 
+[Investopedia](https://www.investopedia.com/terms/o/option.asp) is a great resource if you want to learn more about Options and other financial instruments.
+
+
+
+## Dataset
+
+When we first loaded this dataset a series of actions occurred which created a database
+for us in this environment.
+
+As part of the initialization we created a partitioned database with the following tables:
+1. `trade` - Contains all the trade details
+2. `spread` - Contains the option spread definitions
+3. `nbbo` - Contains the National Best Bid Offer quotes for each option
+
+
+In many real-world situations the data you need may not be present on your existing process 
+and instead you will need to connect to internal services to get this data. To simulate this 
+a separate q process is running (in the background currently) which has the following tables:
+1. `inst` - Contains Instrument details (Underlying stock)
+2. `option` - Contains the option reference data (strike price, expiry etc.)
+
+Finally, in our `FP.Data` module we have a csv file containing some raw exchange messages - 
+`message.csv`
+
+
+ 
+# 1. Data Loading
+## Loading the database
+
+Let's start with loading in our newly created partitioned database which was created at `getenv[`HOME],"/fundamentals_capstone_dbs/"`.
+
+**1.1  Load into the current process the database that was created**
+
+```q
+//your code here - or work in the scratchpad
+system ["l ",getenv[`HOME],"/fundamentals_capstone_dbs/"]
+t: tables[]
+t
+```
+
+
+Verify that these tables are present by navigating to the "Process" Tab - these should be visible
+under Global namespace -> Tables. 
+
+**1.2 Create a function called `showTableSummary` which takes no inputs and returns a dictionary
+of the tables within the process associated to the number of records for each. Call this to
+look at the current process tables.**
+
+*Note: A template has been created in FP.Functions if desired. Once defined, run the 
+corresponding test file (functionName.quke) to test if working correctly*.
+
+*Help: Try the exercises in [Queries](https://kx.com/academy/modules/queries-qsql/#introduction-qsql) module* 
+
+```q
+//your code here - or work in the scratchpad
+showTableSummary:{tables[]!count each value each tables[]}
+showTableSummary[]
+
+```
+
+**1.3 Now that we know the table is relatively small, we can extract a symbol list of the unique options
+present in the `trade` table and store in a variable `uniqueOpts`:**
+
+*Hint: You might want to check the table schema to determine the column namings*
+
+```q
+//your code here - or work in the scratchpad
+
+
+uniqueOpts: distinct exec option_id from (select from trade)
+5#uniqueOpts
+type uniqueOpts
+```
+
+## Extracting remote data 
+The reference data for these Options are actually stored on a separate q process that operates
+as an internal service. This process is restricted in that it **only allows calls to its APIs.** 
+
+The two available APIs are the following: 
+*  `getOptionRef` - This API takes as its only input a symbol list of Options and returns a table with 
+the associated Reference data
+*  `getInstRef` - This API takes as its only input a list of longs corresponding to Instrument IDs and returns a table with 
+the associated Reference data
+
+This Reference data process is a q process which is accessible on port 5457.
+
+
+**1.4 Using your IPC knowledge, connect to this service and store the open handle in a 
+variable `refServiceHandle`**
+
+*Help: Check out this [Introduction to IPC](https://youtu.be/8eoysfqO3UY) and more information [here](https://code.kx.com/q4m3/11_IO/#116-interprocess-communication)* 
+
+```q
+//your code here - or work in the scratchpad
+refServiceHandle:hopen`::5457
+```
+
+**1.5 Using the handle `refServiceHandle` and the `uniqueOpts` variable we created before, call the 
+`getOptionRef` API and retrieve the associated Options Reference data. Store the returned table 
+in a variable `optRef`.**
+```q
+//your code here - or work in the scratchpad
+optRef: refServiceHandle (`getOptionRef;uniqueOpts)
+```
+
+**1.6 Now, extract the unique instruments in our new `optRef` table, and call the `getInstRef ` API 
+to return the Instrument Reference data and store in a table `instRef`:** 
+```q
+//your code here - or work in the scratchpad
+uniqueInsts: distinct exec inst_id from (select from optRef)
+instRef: refServiceHandle(`getInstRef;uniqueInsts)
+type instRef
+```
+
+Great! Now we have our referenece data that we can make use of later. 
+
+## Importing data from Files
+Finally, we will load in data that is stored in a CSV file. The CSV file is located at the following
+directory location : 
+```q
+csvPath:getenv[`AX_WORKSPACE],"/FP.Data/message.csv"
+```
+This table has two columns - the `trade_id` column (should be typed as per our `trade` table) and an 
+`exch_message` column which stores a string of the exchange message associated with the trade identified.
+
+**1.7 Using the Tables Importer (or otherwise) load into the current process the `message.csv` 
+file and store in a table called `messages`. The csv is stored in the `FP.Data` module. The `exch_message`
+column should be read in as a string, and the `trade_id` column should be consistent with the `trade`
+table column of the same name.**
+
+*Note: the table name is messages with an s, not just message.*
+
+*Help: Try the exercises in [Working With Files](https://kx.com/academy/modules/working-files/#saving-loading-csv). And for a refresher on using Tables Importer refer to DeveloperTips.md or watch [here](https://kx.com/academy/modules/introduction-developer/#importing-data)* 
+
+
+```q
+//your code here - or use the table Importer
+
+csvPath:`$ (getenv[`AX_WORKSPACE],"/FP.Data/message.csv")
+messages: ("J*"; enlist ",") 0: csvPath
+```
+
+Verify that all tables are now present in your process (Process tab->Global->Tables) - you should have the following: 
+* nbbo (from database)
+* trade (from database) 
+* spread (from database) 
+* messages (loaded from csv) 
+* optRef (retrieved from service)
+* instRef (retrieved from service) 
+
+Congratulations! You've completed the Data Loading section of the Final Project!
+
+### End of Section testing
+
+Once you have completed this section, you can test all your changes by running the below. 
+Ensure there are no Fail's before moving onto the next section. 
+
+```q
+testSection[`exercise1]
+```
+
+# 2. Data Cleaning
+
+As any data scientist will tell you, getting the data is sometimes just where the fun begins. Now 
+that we have loaded the data, our next step is to clean and parse it. In real-life 
+projects, the data is almost never in the desired format. 
+
+
+For our data, there are a number of places where we need to include additional 
+parsing: 
+* The `optRef` table has the expiry as a string, we need to change this from string
+to date 
+* Our `messages` table exch_message field (also a string) encodes some additional 
+information that we want to extract. 
+   
+**2.1 In the `optRef` table, the `expiry` column is in a string format. Convert this into the kdb date format.**
+
+*Help: See [Casting](https://kx.com/academy/modules/casting/#casting-text)* 
+
+```q
+//your code here 
+optRef: update expiry: "D"$expiry from optRef
+meta optRef
+```
+
+
+Once a trade is successfully executed, the exchange sends a string message which 
+contains the option name (or spread name in case of spreads), successful trade, 
+inst type (option or spread) and broker id. The format differs across exchanges. 
+For exchange messages from CME, the format is
+    
+        “CME-<option name>-<broker id>” 
+
+whereas for exchange messages from ISE, the format is - 
+    
+        “ISE-<broker id>-<option name>”
+       
+We want to be able to extract the broker ID from these exchange messages.
+
+
+**2.2 Create a function `extractBrokerId` that will return the brokerId as a long when 
+passed an exchange message.**
+
+`extractBrokerId “CME-TSLA20200920C1700-709”` should return a value of 709, while 
+`extractBrokerId “ISE-708-TSLA20200920C1700”` should return a value of 708. 
+
+*Note: A template has been created in FP.Functions if desired. Once defined, run the 
+corresponding test file (functionName.quke) to test if working correctly*.
+
+*Help: See [String Manipulation](https://kx.com/academy/modules/string-manipulation/#string-manipulation)* 
+
+```q
+//your code here - or work in the scratchpad
+extractBrokerId:{[msg] parts:"-" vs msg; res:$[parts[0]~"CME"; last parts; parts 1]; res:"J"$res}
+
+extractBrokerId["CME-TSLA20200920C1700-709"]
+extractBrokerId["ISE-708-TSLA20200920C1700"]
+```
+
+
+
+Now we are able to extract this information from the string, we can apply this to 
+our message table.
