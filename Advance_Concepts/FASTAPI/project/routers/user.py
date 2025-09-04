@@ -18,3 +18,4 @@ def create_user(request: schemas.User, db:Session = Depends(get_db)):
 @router.get('/{id}',status_code=200,response_model=schemas.ShowUser,tags=['USERS:'])
 def user_By_Id(id,response =Response, db:Session = Depends(get_db)):
     return user.show(id,db)
+
