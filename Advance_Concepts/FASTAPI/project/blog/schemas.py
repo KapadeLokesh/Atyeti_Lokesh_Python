@@ -4,42 +4,13 @@ from pydantic import BaseModel
 class BlogBase(BaseModel):
     title:str
     body: str
-class Blog(BlogBase):
-    
-
-    class Config():
-        orm_mode = True
+class BlogCreate(BlogBase):
+    pass
 
 class User(BaseModel):
     name: str
     email: str
     password: str
-
-# class ShowUser(BaseModel):
-#     name: str
-#     email: str
-#     blogs: List[Blog] = []
-#     class Config():
-#         orm_mode = True
-
-
-# class ShowBlog(BaseModel):
-#     title:str
-#     body:str
-#     id: int
-#     class Config():
-#         orm_mode = True
-
-# class Login(BaseModel):
-#     username: str
-#     password: str
-
-
-# class TokenData(BaseModel):
-#     username: Optional[str] = None
-
-class BlogCreate(BlogBase):
-    pass
 
 class BlogOut(BlogBase):
     id: int
@@ -52,17 +23,12 @@ class ShowBlog(BlogOut):
 class ShowUser(BaseModel):
     name: str
     email: str
-    
-
+    blogs: List[ShowBlog] = []
     class Config:
         orm_mode = True
 
 class Login(BaseModel):
     username: str
     password: str
-
-# class TokenData(BaseModel):
-#     email: Optional[str] = None
-
 class TokenData(BaseModel):
-    username: Optional[str] = None
+    email: Optional[str] = None
