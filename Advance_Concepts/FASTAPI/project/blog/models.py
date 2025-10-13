@@ -23,3 +23,8 @@ class User(Base):
     password = Column(String, nullable=False)
 
     blogs = relationship('Blog', back_populates="creator")
+
+class Vote(Base):
+    __tablename__ = "votes"
+    userid = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), primary_key=True)
+    blogid = Column(Integer, ForeignKey("blogs.id", ondelete="CASCADE"), primary_key=True)

@@ -1,5 +1,6 @@
-from typing import List
+from typing import List, Optional
 from fastapi import APIRouter, Depends, Response, status, HTTPException
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 from .. import models, oauth2, schemas
 from blog.database import get_db
@@ -12,11 +13,16 @@ router = APIRouter(
 )
 
 @router.get('/',response_model=List[schemas.ShowBlog])
-def all_blog(db: Session = Depends(get_db),current_user = Depends(oauth2.get_current_user)):
-    return blog.get_all(db)
+def get_blogs(db: Session = Depends(get_db), current_user: int = Depends(oauth2.get_current_user)):
+    blogs = db.query(models.Blog, func.count(models.Vote.blogid).label("votes")).join(
+        models.Vote, models.Vote.blogid == models.Blog.id, isouter=True).group_by(models.Blog.id).all()
+    return [
+        {**blog.__dict__, "votes": votes}
+        for blog, votes in blogs
+    ]
 
 @router.post('/', status_code = status.HTTP_201_CREATED,response_model=schemas.ShowBlog)
-def create(request:schemas.BlogCreate, db: Session= Depends(get_db),current_user = Depends(oauth2.get_current_user)):
+def create_blog(request:schemas.BlogCreate, db: Session= Depends(get_db),current_user = Depends(oauth2.get_current_user)):
     return blog.create(request, db, user_id= current_user.id)
 
 @router.delete('/{id}',status_code=status.HTTP_204_NO_CONTENT)
@@ -31,5 +37,6 @@ def update_blog(id: int, request: schemas.BlogCreate, db: Session = Depends(get_
 @router.get('/{id}',status_code=200,response_model=schemas.ShowBlog)
 def blog_By_Id(id:int , db:Session = Depends(get_db),current_user= Depends(oauth2.get_current_user)):
     return blog.show(id,db)
+
 
 

@@ -1,5 +1,5 @@
 from typing import List, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, conint
 
 class BlogBase(BaseModel):
     title:str
@@ -17,8 +17,17 @@ class BlogOut(BlogBase):
     class Config:
         orm_mode = True
 
-class ShowBlog(BlogOut):
-    pass
+class ShowBlog(BaseModel):
+    title: str
+    body: str
+    id: int
+    votes: Optional[int] = 0
+
+    class Config:
+        from_attributes = True
+
+# class ShowBlog(BlogOut):
+#     pass
 
 class ShowUser(BaseModel):
     name: str
@@ -32,3 +41,7 @@ class Login(BaseModel):
     password: str
 class TokenData(BaseModel):
     email: Optional[str] = None
+
+class Vote(BaseModel):
+    blog_id : int
+    dir: conint(le=1) # type: ignore
