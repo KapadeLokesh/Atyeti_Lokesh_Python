@@ -23,14 +23,14 @@ MAX_SIZE = 15 * 1024 * 1024
 
 @router.post('/',response_model=schemas.ShowUser)
 def create_user(request: schemas.User, db:Session = Depends(get_db)):
-    hashed_pw = hashing.Hash.bcrypt(request.password)
+    hashed_pw = hashing.Hash.argon2(request.password)
     new_user = models.User(name = request.name, email = request.email, password =hashed_pw)
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
     return new_user
 
-@router.get('/{id}',status_code=200,response_model=schemas.ShowUser)
+@router.get('/{id}',status_code=200,response_model=schemas.UserOut)
 def user_By_Id(id, db:Session = Depends(get_db)):
     return user.show(id,db)
 

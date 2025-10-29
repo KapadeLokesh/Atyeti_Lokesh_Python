@@ -45,3 +45,11 @@ class TokenData(BaseModel):
 class Vote(BaseModel):
     blog_id : int
     dir: conint(le=1) # type: ignore
+
+class UserOut(BaseModel):
+    id: int
+    name: str
+    email: str
+    
+    class Config:
+        orm_mode = True

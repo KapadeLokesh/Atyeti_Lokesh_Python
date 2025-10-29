@@ -94,8 +94,8 @@ def update_user(user_id: int, user: UserUpdate, db: Session = Depends(get_db)):
     if db_user is None:
         raise HTTPException(status_code=404, detail="User not found")
     
-    db_user.name = user.name if user.name is not None else db_user.name
-    db_user.email = user.email if user.email is not None else db_user.email
+    db_user.name = user.name if user.name is not None else db_user.name # type: ignore
+    db_user.email = user.email if user.email is not None else db_user.email # type: ignore
     db.commit()
     db.refresh(db_user)
     return db_user
