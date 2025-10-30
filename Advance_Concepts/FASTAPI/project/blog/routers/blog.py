@@ -8,7 +8,7 @@ from blog.repository import blog
 
 
 router = APIRouter(
-    # prefix="/blog",
+    prefix="/blog",
     tags=['BLOGS:']
 )
 
