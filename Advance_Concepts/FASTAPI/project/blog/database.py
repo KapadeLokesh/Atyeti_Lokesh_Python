@@ -11,6 +11,9 @@ load_dotenv()
 
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not SQLALCHEMY_DATABASE_URL:
+    SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:loki@localhost:5432/fastapi"
+
 engine = create_engine(SQLALCHEMY_DATABASE_URL) # type: ignore
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
