@@ -7,7 +7,7 @@ from blog.routers import authentication, blog, user, vote
 
 # models.Base.metadata.create_all(engine)
 
-app = FastAPI()
+app = FastAPI(debug=True)
 
 # origins = ["https://www.google.com"]
 origins = ["*"]
