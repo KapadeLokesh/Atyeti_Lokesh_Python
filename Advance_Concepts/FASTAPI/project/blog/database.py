@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
+if SQLALCHEMY_DATABASE_URL and SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
+    SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
 if not SQLALCHEMY_DATABASE_URL:
     SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:loki@localhost:5432/fastapi"

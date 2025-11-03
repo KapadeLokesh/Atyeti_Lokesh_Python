@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
-from .database import Base
+from .database import Base # type: ignore
 from sqlalchemy.orm import relationship
 
 

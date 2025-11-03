@@ -24,7 +24,7 @@ if database_url:
     config.set_main_option("sqlalchemy.url", database_url)
 
 # Target metadata for autogenerate
-target_metadata = models.Base.metadata
+target_metadata = Base.metadata
 
 
 # Interpret the config file for Python logging.
