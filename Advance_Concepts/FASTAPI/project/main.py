@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from blog import models
 from blog.routers import authentication, blog, user, vote
 
-models.Base.metadata.create_all(engine)
+# models.Base.metadata.create_all(engine)
 
 app = FastAPI(debug=True)
 
