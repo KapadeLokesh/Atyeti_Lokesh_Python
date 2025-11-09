@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.env.*         
+.vscode/
+.idea/
+*.sqlite3
+instance/
+*.log
+
+# Docker
+Dockerfile
+# OS
+.DS_Store
+Thumbs.db
+alembic/versions/__pycache__/
