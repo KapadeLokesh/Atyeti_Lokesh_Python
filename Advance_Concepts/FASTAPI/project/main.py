@@ -1,15 +1,13 @@
 from typing import List
 from fastapi import Depends, FastAPI, HTTPException, status, Response
-from blog.database import engine
+from blog.database import APP_ENV, engine
 from fastapi.middleware.cors import CORSMiddleware
 from blog import models
 from blog.routers import authentication, blog, user, vote
-
-# models.Base.metadata.create_all(engine)
+import os
 
 app = FastAPI(debug=True)
 
-# origins = ["https://www.google.com"]
 origins = ["*"]
 
 app.add_middleware(
@@ -27,6 +25,8 @@ app.include_router(authentication.router)
 
 @app.get("/")
 def root():
-    return {"message":"Hello from Render...!"}
-
- 
+    return {
+        "message": "Welcome to FastAPI Blog API 🚀",
+        "environment": APP_ENV,
+        # "in_docker": os.path.exists("/.dockerenv")
+    }

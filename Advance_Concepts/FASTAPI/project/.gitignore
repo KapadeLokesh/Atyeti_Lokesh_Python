@@ -9,8 +9,6 @@ __pycache__/
 instance/
 *.log
 
-# Docker
-Dockerfile
 # OS
 .DS_Store
 Thumbs.db
