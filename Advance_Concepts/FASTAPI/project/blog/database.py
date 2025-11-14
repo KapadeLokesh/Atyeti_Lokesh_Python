@@ -9,10 +9,6 @@ load_dotenv()
 # Get base DATABASE_URL from .env
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
-# # helps you switch between Docker/local
-# APP_ENV = os.getenv("APP_ENV", "local").lower()
-# IN_DOCKER = os.getenv("IN_DOCKER", "false").lower() == "true"
-
 # Detect if running inside Docker automatically
 def is_running_in_docker() -> bool:
     # Docker sets this file in all containers
