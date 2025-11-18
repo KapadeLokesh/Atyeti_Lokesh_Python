@@ -4,14 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 
-load_dotenv()
-
-# Get base DATABASE_URL from .env
-SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
-
-if not SQLALCHEMY_DATABASE_URL:
-    raise ValueError("DATABASE_URL not set. Please define it in your .env file.")
-
 # Detect if running inside Docker automatically
 def is_running_in_docker() -> bool:
     # Docker sets this file in all containers
@@ -20,8 +12,16 @@ def is_running_in_docker() -> bool:
 IN_DOCKER = is_running_in_docker()
 APP_ENV = "docker" if IN_DOCKER else "local"
 
+if "RENDER" not in os.environ and "RENDER_INTERNAL_HOSTNAME" not in os.environ:
+    load_dotenv()
+# Get base DATABASE_URL from .env
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not SQLALCHEMY_DATABASE_URL:
+    raise ValueError("DATABASE_URL not set. Please define it in your .env file.")
+
 # Adjust for Render / Docker / Local 
-if SQLALCHEMY_DATABASE_URL and SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
+if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
 # # Auto-adjust host depending on environment
