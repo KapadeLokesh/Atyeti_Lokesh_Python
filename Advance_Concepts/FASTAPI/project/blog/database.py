@@ -9,6 +9,9 @@ load_dotenv()
 # Get base DATABASE_URL from .env
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not SQLALCHEMY_DATABASE_URL:
+    raise ValueError("DATABASE_URL not set. Please define it in your .env file.")
+
 # Detect if running inside Docker automatically
 def is_running_in_docker() -> bool:
     # Docker sets this file in all containers
@@ -21,13 +24,13 @@ APP_ENV = "docker" if IN_DOCKER else "local"
 if SQLALCHEMY_DATABASE_URL and SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
-# Auto-adjust host depending on environment
-if not IN_DOCKER and SQLALCHEMY_DATABASE_URL and "host.docker.internal" in SQLALCHEMY_DATABASE_URL: # type: ignore
-    # Replace Docker hostname with localhost for local run
-    SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("host.docker.internal", "localhost") # type: ignore
+# # Auto-adjust host depending on environment
+# if not IN_DOCKER and SQLALCHEMY_DATABASE_URL and "host.docker.internal" in SQLALCHEMY_DATABASE_URL: # type: ignore
+#     # Replace Docker hostname with localhost for local run
+#     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("host.docker.internal", "localhost") # type: ignore
 
-if not SQLALCHEMY_DATABASE_URL:
-    raise ValueError("DATABASE_URL not set. Please define it in your .env file.")
+if not IN_DOCKER:
+    SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("@db:", "@localhost:")
 
 # SQLAlchemy setup
 engine = create_engine(SQLALCHEMY_DATABASE_URL)

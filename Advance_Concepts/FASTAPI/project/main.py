@@ -7,20 +7,20 @@ from blog.routers import authentication, blog, user, vote
 import os
 
 
-def detect_environment():
-    env = os.getenv("APP_ENV", "auto").lower()
-    if env != "auto":
-        return env
+# def detect_environment():
+#     env = os.getenv("APP_ENV", "auto").lower()
+#     if env != "auto":
+#         return env
 
-    if os.path.exists("/.dockerenv"):
-        return "docker"
+#     if os.path.exists("/.dockerenv"):
+#         return "docker"
 
-    if "RENDER_INTERNAL_HOSTNAME" in os.environ:
-        return "render"
+#     if "RENDER_INTERNAL_HOSTNAME" in os.environ:
+#         return "render"
 
-    return "local"
+#     return "local"
 
-APP_ENV = detect_environment()
+# APP_ENV = detect_environment()
 
 app = FastAPI(debug=True)
 

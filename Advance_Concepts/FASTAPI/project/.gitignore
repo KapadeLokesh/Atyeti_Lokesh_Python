@@ -1,8 +1,7 @@
 # Python
 __pycache__/
 *.pyc
-.env
-.env.*         
+.env        
 .vscode/
 .idea/
 *.sqlite3
