@@ -5,12 +5,16 @@ from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 
 # Detect if running inside Docker automatically
-def is_running_in_docker() -> bool:
+def is_running_in_docker() -> str:
     # Docker sets this file in all containers
-    return os.path.exists("/.dockerenv")
+    if os.getenv("RENDER") or os.getenv("RENDER_SERVICE_ID"):
+        return "render"
+    if os.path.exists("/.dockerenv"):
+        return "docker"
+    return "local"
 
 IN_DOCKER = is_running_in_docker()
-APP_ENV = "docker" if IN_DOCKER else "local"
+APP_ENV = IN_DOCKER
 
 if "RENDER" not in os.environ and "RENDER_INTERNAL_HOSTNAME" not in os.environ:
     load_dotenv()
@@ -23,11 +27,6 @@ if not SQLALCHEMY_DATABASE_URL:
 # Adjust for Render / Docker / Local 
 if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
-
-# # Auto-adjust host depending on environment
-# if not IN_DOCKER and SQLALCHEMY_DATABASE_URL and "host.docker.internal" in SQLALCHEMY_DATABASE_URL: # type: ignore
-#     # Replace Docker hostname with localhost for local run
-#     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("host.docker.internal", "localhost") # type: ignore
 
 if not IN_DOCKER:
     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("@db:", "@localhost:")
