@@ -6,6 +6,9 @@ from blog import models
 from blog.routers import authentication, blog, user, vote, comments
 import os
 
+from migrate import run_migrations
+
+
 app = FastAPI(debug=True)
 
 origins = ["*"]
@@ -23,6 +26,11 @@ app.include_router(user.router)
 app.include_router(vote.router)
 app.include_router(authentication.router)
 app.include_router(comments.router)
+
+@app.on_event("startup")
+def apply_migrations():
+        run_migrations()
+        
 
 @app.get("/")
 def root():

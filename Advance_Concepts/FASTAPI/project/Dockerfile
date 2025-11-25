@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 8000
 
 # Run Alembic migrations then start the FastAPI app
-CMD ["sh", "-c", "alembic upgrade head && uvicorn main:app --host 0.0.0.0 --port 8000"]
+CMD ["sh", "-c", "cd / app && alembic upgrade head && uvicorn main:app --host 0.0.0.0 --port 8000"]
