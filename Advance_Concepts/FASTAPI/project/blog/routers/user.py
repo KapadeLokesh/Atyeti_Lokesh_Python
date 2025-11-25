@@ -80,3 +80,4 @@ def user_blogs(id,format : str=Query("json",enum = ["json","csv"]),
 
     headers = {"Content-Disposition": f'attachment; filename="user_{id}_blogs.csv"'}
     return StreamingResponse(iter([csv_bytes]), media_type="text/csv; charset=utf-8", headers=headers)
+

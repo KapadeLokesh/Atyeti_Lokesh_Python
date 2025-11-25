@@ -11,8 +11,8 @@ class Blog(Base):
     body = Column(String, nullable=False)
     user_id = Column(Integer, ForeignKey("users.id"))
     
-
     creator = relationship("User", back_populates="blogs")
+    comments = relationship("Comment", back_populates="blog", cascade="all, delete")
 
 
 class User(Base):
@@ -29,3 +29,13 @@ class Vote(Base):
     __tablename__ = "votes"
     userid = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), primary_key=True)
     blogid = Column(Integer, ForeignKey("blogs.id", ondelete="CASCADE"), primary_key=True)
+
+class Comment(Base):
+    __tablename__ = "comments"
+
+    id = Column(Integer,primary_key=True, index=True)
+    content = Column(String,nullable=False)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    blog_id = Column(Integer, ForeignKey("blogs.id", ondelete="CASCADE"), nullable=False)
+    blog = relationship("Blog", back_populates="comments")
+    user = relationship("User")

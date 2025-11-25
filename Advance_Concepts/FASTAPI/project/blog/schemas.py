@@ -53,3 +53,17 @@ class UserOut(BaseModel):
     
     class Config:
         orm_mode = True
+
+class CommentBase(BaseModel):
+    content: str
+
+class CommentCreate(CommentBase):
+    pass
+
+class CommentResponse(CommentBase):
+    id: int
+    blog_id: int
+    user_id: int
+
+    class Config:
+        orm_mode= True

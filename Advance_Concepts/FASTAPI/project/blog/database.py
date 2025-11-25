@@ -18,22 +18,25 @@ APP_ENV = IN_DOCKER
 
 if "RENDER" not in os.environ and "RENDER_INTERNAL_HOSTNAME" not in os.environ:
     load_dotenv()
-# Get base DATABASE_URL from .env
+
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
+
+if APP_ENV == "local":
+    load_dotenv()
+
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not SQLALCHEMY_DATABASE_URL:
-    raise ValueError("DATABASE_URL not set. Please define it in your .env file.")
+    raise ValueError("DATABASE_URL is missing.")
 
-# Adjust for Render / Docker / Local 
 if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
     SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
-if not IN_DOCKER:
-    SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("@db:", "@localhost:")
+if APP_ENV == "local":
+    SQLALCHEMY_DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("@db", "@localhost")
 
-# SQLAlchemy setup
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 Base = declarative_base()
 
 def get_db():

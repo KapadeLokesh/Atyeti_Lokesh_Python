@@ -3,24 +3,8 @@ from fastapi import Depends, FastAPI, HTTPException, status, Response
 from blog.database import APP_ENV, engine
 from fastapi.middleware.cors import CORSMiddleware
 from blog import models
-from blog.routers import authentication, blog, user, vote
+from blog.routers import authentication, blog, user, vote, comments
 import os
-
-
-# def detect_environment():
-#     env = os.getenv("APP_ENV", "auto").lower()
-#     if env != "auto":
-#         return env
-
-#     if os.path.exists("/.dockerenv"):
-#         return "docker"
-
-#     if "RENDER_INTERNAL_HOSTNAME" in os.environ:
-#         return "render"
-
-#     return "local"
-
-# APP_ENV = detect_environment()
 
 app = FastAPI(debug=True)
 
@@ -38,6 +22,7 @@ app.include_router(blog.router)
 app.include_router(user.router)
 app.include_router(vote.router)
 app.include_router(authentication.router)
+app.include_router(comments.router)
 
 @app.get("/")
 def root():
