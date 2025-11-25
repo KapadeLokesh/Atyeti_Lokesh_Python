@@ -38,3 +38,9 @@ jobs:
           curl -X POST "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys" \
           -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
           -H "Accept: application/json"
+
+      - name: Run Alembic Migration after Deploy
+        run: |
+          sleep 30  
+          curl -X POST "${{ secrets.RENDER_APP_URL }}/migrate" \
+          -H "Authorization: Bearer ${{ secrets.DEPLOY_SECRET }}"
