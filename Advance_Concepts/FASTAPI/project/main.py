@@ -10,8 +10,6 @@ from migrate import run_migrations
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # if APP_ENV != "local":
-    #     run_migrations()
     yield
 
 app = FastAPI(debug=True, lifespan=lifespan)

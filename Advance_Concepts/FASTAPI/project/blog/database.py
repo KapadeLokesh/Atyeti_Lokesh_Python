@@ -30,7 +30,7 @@ if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
 if APP_ENV == "local" and "@db" in SQLALCHEMY_DATABASE_URL:
     DATABASE_URL = DATABASE_URL.replace("@db", "@localhost")
 
-engine = create_engine(DATABASE_URL)
+engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 Base = declarative_base()
 
