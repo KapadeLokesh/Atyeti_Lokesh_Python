@@ -7,7 +7,7 @@ __pycache__/
 *.sqlite3
 instance/
 *.log
-
+.env.docker
 # OS
 .DS_Store
 Thumbs.db

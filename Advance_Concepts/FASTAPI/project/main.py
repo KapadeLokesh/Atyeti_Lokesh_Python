@@ -36,6 +36,6 @@ app.include_router(comments.router)
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to FastAPI Blog API:",
+        "message": "Welcome to FastAPI Blog API",
         "environment": APP_ENV,
     }
