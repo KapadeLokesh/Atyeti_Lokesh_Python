@@ -24,13 +24,26 @@ SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 if not SQLALCHEMY_DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is missing!")
 
-if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
-    DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
-if APP_ENV == "local" and "@db" in SQLALCHEMY_DATABASE_URL:
+
+
+DATABASE_URL = SQLALCHEMY_DATABASE_URL
+
+# if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):
+#     DATABASE_URL = SQLALCHEMY_DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
+# if APP_ENV == "local" and "@db" in SQLALCHEMY_DATABASE_URL:
+#     DATABASE_URL = DATABASE_URL.replace("@db", "@localhost")
+
+if APP_ENV == "local" and "@db" in DATABASE_URL:
     DATABASE_URL = DATABASE_URL.replace("@db", "@localhost")
 
+# engine = create_engine(SQLALCHEMY_DATABASE_URL)
 engine = create_engine(DATABASE_URL)
+
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 Base = declarative_base()
 
