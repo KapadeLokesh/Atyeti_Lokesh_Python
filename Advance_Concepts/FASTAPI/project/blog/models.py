@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, DateTime, Integer, String, ForeignKey, func
 from .database import Base # type: ignore
 from sqlalchemy.orm import relationship
 
@@ -39,3 +39,4 @@ class Comment(Base):
     blog_id = Column(Integer, ForeignKey("blogs.id", ondelete="CASCADE"), nullable=False)
     blog = relationship("Blog", back_populates="comments")
     user = relationship("User")
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
