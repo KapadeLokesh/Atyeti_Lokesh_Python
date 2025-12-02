@@ -25,8 +25,6 @@ if not SQLALCHEMY_DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is missing!")
 
 
-
-
 DATABASE_URL = SQLALCHEMY_DATABASE_URL
 
 # if SQLALCHEMY_DATABASE_URL.startswith("postgres://"):

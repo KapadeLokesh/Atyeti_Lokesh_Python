@@ -20,6 +20,9 @@ config = context.config
 # Get DATABASE_URL from environment (Render or .env)
 database_url = os.getenv("DATABASE_URL")
 
+if database_url and database_url.startswith("postgres://"):
+    database_url = database_url.replace("postgres://", "postgresql://", 1)
+
 # Override alembic.ini’s sqlalchemy.url dynamically
 if database_url:
     config.set_main_option("sqlalchemy.url", database_url)
