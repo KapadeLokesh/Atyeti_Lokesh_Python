@@ -1,24 +1,20 @@
-import os
+from fastapi import FastAPI
+from app.schemas import ChatRequest, ChatResponse
+from app.llm_service import ask_llm
 
-from dotenv import load_dotenv
-from openai import OpenAI
+app = FastAPI()
 
-load_dotenv()
+@app.get("/")
+def health_check():
+    return {"message": "Company Document AI Assistant Running"}
 
-api_key = os.getenv("GROQ_API_KEY")
 
-client = OpenAI(
-    api_key=api_key,
-    base_url="https://api.groq.com/openai/v1"
-)
+@app.post("/chat", response_model=ChatResponse)
+def chat(request: ChatRequest):
+    answer = ask_llm(request.question)
 
-while True:
-    question = input("\nAsk a question (type 'exit' to quit):")
-    if question.lower() == "exit":
-        break
-
-    response = client.responses.create(
-        model="llama-3.3-70b-versatile",
-        input=question
+    return ChatResponse(
+        answer=answer
     )
-    print("\nAI:",response.output_text)
+
+    
