@@ -1,0 +1,814 @@
+[
+    {
+        "chunk_id": 0,
+        "text": "Python Interview Questions\nTo view the live version of the\npage, click here.\n© Copyright by Interviewbit\nIf you're a Python Developer looking to learn more, the guidance of an\nexpert might complement the insights from the book. If you're\ninterested, feel free to register for our FREE upcoming Masterclass,\nwhere you can interact with a top instructor, LIVE\n“As a regular attendee of the Masterclass, I feel the\nmost valuable part about Scaler Academy's\nMasterclasses is the unparalleled content qual"
+    },
+    {
+        "chunk_id": 1,
+        "text": " I feel the\nmost valuable part about Scaler Academy's\nMasterclasses is the unparalleled content quality that\nthey deliver. A 3 hour Masterclass is very helpful and\ngood enough for the teaching part and doubt clearing\nsessions. I use the study material they provide before\neach Masterclass. In these times when nothing is for\nfree, these classes are a life-savior!”\n“The session was so well structured and simpliﬁed. 3\nengaging hours of learning, interesting polls and lots\nof doubt resolution! The be"
+    },
+    {
+        "chunk_id": 2,
+        "text": " and simpliﬁed. 3\nengaging hours of learning, interesting polls and lots\nof doubt resolution! The best part was, he saw curious\nlearners and extended the session for another hour for\npeople who wished to stay. Recommend it to all\nbeginners out there who are clueless about starting\nHLD themselves! This is a must!!”\nIf interested, don't hesitate to\nattend this FREE session.\nREGISTER NOW\nShubh\nAgrawal\nB.Tech, IIIT,\nBhagalpur\nAbhinav\nKoppula\nDeveloper,\nMckinsey\nPython Interview Questions for Fresher"
+    },
+    {
+        "chunk_id": 3,
+        "text": "l\nB.Tech, IIIT,\nBhagalpur\nAbhinav\nKoppula\nDeveloper,\nMckinsey\nPython Interview Questions for Freshers\n1.   What is Python? What are the benefits of using Python\n2.   What is a dynamically typed language?\n3.   What is an Interpreted language?\n4.   What is PEP 8 and why is it important?\n5.   What is Scope in Python?\n6.   What are lists and tuples? What is the key diﬀerence between the two?\n7.   What are the common built-in data types in Python?\n8.   What is pass in Python?\n9.   What are modules an"
+    },
+    {
+        "chunk_id": 4,
+        "text": " are the common built-in data types in Python?\n8.   What is pass in Python?\n9.   What are modules and packages in Python?\n10.   What are global, protected and private attributes in Python?\n11.   What is the use of self in Python?\n12.   What is __init__?\n13.   What is break, continue and pass in Python?\n14.   What are unit tests in Python?\n15.   What is docstring in Python?\n16.   What is slicing in Python?\n17.   Explain how can you make a Python Script executable on Unix?\n18.   What is the diﬀere"
+    },
+    {
+        "chunk_id": 5,
+        "text": " Python?\n17.   Explain how can you make a Python Script executable on Unix?\n18.   What is the diﬀerence between Python Arrays and lists?\nPython Interview Questions for Experienced\nPage 1\n© Copyright by Interviewbit\nContents\nPython Interview Questions\nPython Interview Questions for\nExperienced\n(.....Continued)\n19.   How is memory managed in Python?\n20.   What are Python namespaces? Why are they used?\n21.   What is Scope Resolution in Python?\n22.   What are decorators in Python?\n23.   What are Dic"
+    },
+    {
+        "chunk_id": 6,
+        "text": "d?\n21.   What is Scope Resolution in Python?\n22.   What are decorators in Python?\n23.   What are Dict and List comprehensions?\n24.   What is lambda in Python? Why is it used?\n25.   How do you copy an object in Python?\n26.   What is the diﬀerence between xrange and range in Python?\n27.   What is pickling and unpickling?\n28.   What are generators in Python?\n29.   What is PYTHONPATH in Python?\n30.   What is the use of help() and dir() functions?\n31.   What is the diﬀerence between .py and .pyc file"
+    },
+    {
+        "chunk_id": 7,
+        "text": "What is the use of help() and dir() functions?\n31.   What is the diﬀerence between .py and .pyc files?\n32.   How Python is interpreted?\n33.   How are arguments passed by value or by reference in python?\n34.   What are iterators in Python?\n35.   Explain how to delete a file in Python?\n36.   Explain split() and join() functions in Python?\n37.   What does *args and **kwargs mean?\n38.   What are negative indexes and why are they used?\nPage 2\n© Copyright by Interviewbit\nPython Interview Questions\nPyt"
+    },
+    {
+        "chunk_id": 8,
+        "text": "ive indexes and why are they used?\nPage 2\n© Copyright by Interviewbit\nPython Interview Questions\nPython OOPS Interview Questions\n39.   How do you create a class in Python?\n40.   How does inheritance work in python? Explain it with an example.\n41.   How do you access parent members in the child class?\n42.   Are access specifiers used in python?\n43.   Is it possible to call parent class without its instance creation?\n44.   How is an empty class created in python?\n45.   Diﬀerentiate between new and"
+    },
+    {
+        "chunk_id": 9,
+        "text": "instance creation?\n44.   How is an empty class created in python?\n45.   Diﬀerentiate between new and override modifiers.\n46.   Why is finalize used?\n47.   What is init method in python?\n48.   How will you check if a class is a child of another class?\nPython Pandas Interview Questions\n49.   What do you know about pandas?\n50.   Define pandas dataframe.\n51.   How will you combine diﬀerent pandas dataframes?\n52.   Can you create a series from the dictionary object in pandas?\n53.   How will you ident"
+    },
+    {
+        "chunk_id": 10,
+        "text": "frames?\n52.   Can you create a series from the dictionary object in pandas?\n53.   How will you identify and deal with missing values in a dataframe?\n54.   What do you understand by reindexing in pandas?\n55.   How to add new column to pandas dataframe?\n56.   How will you delete indices, rows and columns from a dataframe?\nPage 3\n© Copyright by Interviewbit\nPython Interview Questions\nPython Pandas Interview Questions\n57.   Can you get items of series A that are not available in another series B?\n58"
+    },
+    {
+        "chunk_id": 11,
+        "text": "terview Questions\n57.   Can you get items of series A that are not available in another series B?\n58.   How will you get the items that are not common to both the given series A and\nB?\n59.   While importing data from diﬀerent sources, can the pandas library recognize\ndates?\nNumpy Interview Questions\n60.   What do you understand by NumPy?\n61.   How are NumPy arrays advantageous over python lists?\n62.   What are the steps to create 1D, 2D and 3D arrays?\n63.   You are given a numpy array and a new "
+    },
+    {
+        "chunk_id": 12,
+        "text": "2.   What are the steps to create 1D, 2D and 3D arrays?\n63.   You are given a numpy array and a new column as inputs. How will you delete\nthe second column and replace the column with a new column value?\n64.   How will you eﬀiciently load data from a text file?\n65.   How will you read CSV data into an array in NumPy?\n66.   How will you sort the array based on the Nth column?\n67.   How will you find the nearest value in a given numpy array?\n68.   How will you reverse the numpy array using one lin"
+    },
+    {
+        "chunk_id": 13,
+        "text": "d the nearest value in a given numpy array?\n68.   How will you reverse the numpy array using one line of code?\n69.   How will you find the shape of any given NumPy array?\nPython Libraries Interview Questions\n70.   Diﬀerentiate between a package and a module in python.\n71.   What are some of the most commonly used built-in modules in Python?\n72.   What are lambda functions?\n73.   How can you generate random numbers?\nPage 4\n© Copyright by Interviewbit\nPython Interview Questions\nPython Libraries In"
+    },
+    {
+        "chunk_id": 14,
+        "text": "te random numbers?\nPage 4\n© Copyright by Interviewbit\nPython Interview Questions\nPython Libraries Interview Questions\n74.   Can you easily check if all characters in the given string is alphanumeric?\n75.   What are the diﬀerences between pickling and unpickling?\n76.   Define GIL.\n77.   Define PYTHONPATH.\n78.   Define PIP.\n79.   Are there any tools for identifying bugs and performing static analysis in python?\n80.   Diﬀerentiate between deep and shallow copies.\n81.   What is main function in pyth"
+    },
+    {
+        "chunk_id": 15,
+        "text": "s in python?\n80.   Diﬀerentiate between deep and shallow copies.\n81.   What is main function in python? How do you invoke it?\nPython Programming Examples\n82.   Write python function which takes a variable number of arguments.\n83.   WAP (Write a program) which takes a sequence of numbers and check if all\nnumbers are unique.\n84.   Write a program for counting the number of every character of a given text file.\n85.   Write a program to check and return the pairs of a given array A whose sum\nvalue i"
+    },
+    {
+        "chunk_id": 16,
+        "text": " text file.\n85.   Write a program to check and return the pairs of a given array A whose sum\nvalue is equal to a target value N.\n86.   Write a Program to add two integers >0 without using the plus operator.\n87.   Write a Program to solve the given equation assuming that a,b,c,m,n,o are\nconstants:\n88.   Write a Program to match a string that has the letter ‘a’ followed by 4 to 8 'b’s.\n89.   Write a Program to convert date from yyyy-mm-dd format to dd-mm-yyyy\nformat.\n90.   Write a Program to combi"
+    },
+    {
+        "chunk_id": 17,
+        "text": " Program to convert date from yyyy-mm-dd format to dd-mm-yyyy\nformat.\n90.   Write a Program to combine two diﬀerent dictionaries. While combining, if you\nfind the same keys, you can add the values of these same keys. Output the new\ndictionary\n91.   How will you access the dataset of a publicly shared spreadsheet in CSV format\nstored in Google Drive?\nPage 5\n© Copyright by Interviewbit\nIntroduction to Python:\nPython was developed by Guido van Rossum and was released first on February 20,\n1991. It "
+    },
+    {
+        "chunk_id": 18,
+        "text": "to Python:\nPython was developed by Guido van Rossum and was released first on February 20,\n1991. It is one of the most widely-used and loved programming languages and is\ninterpreted in nature thereby providing flexibility of incorporating dynamic\nsemantics. It is also a free and open-source language with very simple and clean\nsyntax. This makes it easy for developers to learn python. Python also supports\nobject-oriented programming and is most commonly used to perform general-\npurpose programmin"
+    },
+    {
+        "chunk_id": 19,
+        "text": "upports\nobject-oriented programming and is most commonly used to perform general-\npurpose programming. \nDue to its simplistic nature and the ability to achieve multiple functionalities in fewer\nlines of code, python’s popularity is growing tremendously. Python is also used in\nMachine Learning, Artificial Intelligence, Web Development, Web Scraping, and\nvarious other domains due to its ability to support powerful computations using\npowerful libraries. Due to this, there is a huge demand for pytho"
+    },
+    {
+        "chunk_id": 20,
+        "text": "upport powerful computations using\npowerful libraries. Due to this, there is a huge demand for python developers in India\nand across the world. Companies are willing to oﬀer amazing perks and benefits to\nthese developers. \nIn this article, we will see the most commonly asked python interview questions and\nanswers which will help you excel and bag amazing job oﬀers.\nWe have classified them into the following sections:\nPage 6\n© Copyright by Interviewbit\nLet's get Started\nPython Interview Questions"
+    },
+    {
+        "chunk_id": 21,
+        "text": " following sections:\nPage 6\n© Copyright by Interviewbit\nLet's get Started\nPython Interview Questions\nPython Interview Questions for Freshers\nPython Interview Questions for Experienced\nPython OOPS Interview Questions\nPython Pandas Interview Questions\nNumpy Interview Questions\nPython Libraries Interview Questions\nPython Programming Examples\n \nPython Cheat Sheet: Basic to Advanced Concepts\n \nPython Interview Questions for Freshers\n1.   What is Python? What are the benefits of using Python\nPython is"
+    },
+    {
+        "chunk_id": 22,
+        "text": "nterview Questions for Freshers\n1.   What is Python? What are the benefits of using Python\nPython is a high-level, interpreted, general-purpose programming language. Being a\ngeneral-purpose language, it can be used to build almost any type of application with\nthe right tools/libraries. Additionally, python supports objects, modules, threads,\nexception-handling, and automatic memory management which help in modelling\nreal-world problems and building applications to solve these problems.\nPage 7\n© "
+    },
+    {
+        "chunk_id": 23,
+        "text": "h help in modelling\nreal-world problems and building applications to solve these problems.\nPage 7\n© Copyright by Interviewbit\nPython Interview Questions\nBenefits of using Python:\nPython is a general-purpose programming language that has a simple, easy-to-\nlearn syntax that emphasizes readability and therefore reduces the cost of\nprogram maintenance. Moreover, the language is capable of scripting, is\ncompletely open-source, and supports third-party packages encouraging\nmodularity and code reuse.\n"
+    },
+    {
+        "chunk_id": 24,
+        "text": "is\ncompletely open-source, and supports third-party packages encouraging\nmodularity and code reuse.\nIts high-level data structures, combined with dynamic typing and dynamic\nbinding, attract a huge community of developers for Rapid Application\nDevelopment and deployment.\n2.   What is a dynamically typed language?\nBefore we understand a dynamically typed language, we should learn about what\ntyping is. Typing refers to type-checking in programming languages. In a strongly-\ntyped language, such as P"
+    },
+    {
+        "chunk_id": 25,
+        "text": "s. Typing refers to type-checking in programming languages. In a strongly-\ntyped language, such as Python, \"1\" + 2 will result in a type error since these\nlanguages don't allow for \"type-coercion\" (implicit conversion of data types). On the\nother hand, a weakly-typed language, such as Javascript, will simply output \"12\" as\nresult.\nType-checking can be done at two stages -\nStatic - Data Types are checked before execution.\nDynamic - Data Types are checked during execution.\nPython is an interpreted"
+    },
+    {
+        "chunk_id": 26,
+        "text": "hecked before execution.\nDynamic - Data Types are checked during execution.\nPython is an interpreted language, executes each statement line by line and thus\ntype-checking is done on the fly, during execution. Hence, Python is a Dynamically\nTyped Language.\nPage 8\n© Copyright by Interviewbit\nPython Interview Questions\n3.   What is an Interpreted language?\nAn Interpreted language executes its statements line by line. Languages such as\nPython, Javascript, R, PHP, and Ruby are prime examples of Inter"
+    },
+    {
+        "chunk_id": 27,
+        "text": "nts line by line. Languages such as\nPython, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages.\nPrograms written in an interpreted language runs directly from the source code, with\nno intermediary compilation step.\n4.   What is PEP 8 and why is it important?\nPEP stands for Python Enhancement Proposal. A PEP is an oﬀicial design document\nproviding information to the Python community, or describing a new feature for\nPython or its processes. PEP 8 is especially important since"
+    },
+    {
+        "chunk_id": 28,
+        "text": "munity, or describing a new feature for\nPython or its processes. PEP 8 is especially important since it documents the style\nguidelines for Python Code. Apparently contributing to the Python open-source\ncommunity requires you to follow these style guidelines sincerely and strictly.\n5.   What is Scope in Python?\nEvery object in Python functions within a scope. A scope is a block of code where an\nobject in Python remains relevant. Namespaces uniquely identify all the objects\ninside a program. Howev"
+    },
+    {
+        "chunk_id": 29,
+        "text": "ect in Python remains relevant. Namespaces uniquely identify all the objects\ninside a program. However, these namespaces also have a scope defined for them\nwhere you could use their objects without any prefix. A few examples of scope\ncreated during code execution in Python are as follows:\nPage 9\n© Copyright by Interviewbit\nPython Interview Questions\nA local scope refers to the local objects available in the current function.\nA global scope refers to the objects available throughout the code exec"
+    },
+    {
+        "chunk_id": 30,
+        "text": "ble in the current function.\nA global scope refers to the objects available throughout the code execution\nsince their inception.\nA module-level scope refers to the global objects of the current module\naccessible in the program.\nAn outermost scope refers to all the built-in names callable in the program. The\nobjects in this scope are searched last to find the name referenced.\nNote: Local scope objects can be synced with global scope objects using keywords\nsuch as global.\n6.   What are lists and t"
+    },
+    {
+        "chunk_id": 31,
+        "text": "cts can be synced with global scope objects using keywords\nsuch as global.\n6.   What are lists and tuples? What is the key diﬀerence between\nthe two?\nLists and Tuples are both sequence data types that can store a collection of objects\nin Python. The objects stored in both sequences can have diﬀerent data types. Lists\nare represented with square brackets \n['sara', 6, 0.19] , while tuples are\nrepresented with parantheses \n('ansh', 5, 0.97) .\nBut what is the real diﬀerence between the two? The key "
+    },
+    {
+        "chunk_id": 32,
+        "text": "ented with parantheses \n('ansh', 5, 0.97) .\nBut what is the real diﬀerence between the two? The key diﬀerence between the two\nis that while lists are mutable, tuples on the other hand are immutable objects.\nThis means that lists can be modified, appended or sliced on the go but tuples\nremain constant and cannot be modified in any manner. You can run the following\nexample on Python IDLE to confirm the diﬀerence:\nmy_tuple = ('sara', 6, 5, 0.97) \nmy_list = ['sara', 6, 5, 0.97] \nprint(my_tuple[0])  "
+    },
+    {
+        "chunk_id": 33,
+        "text": "the diﬀerence:\nmy_tuple = ('sara', 6, 5, 0.97) \nmy_list = ['sara', 6, 5, 0.97] \nprint(my_tuple[0])     # output => 'sara'\nprint(my_list[0])     # output => 'sara' \nmy_tuple[0] = 'ansh'    # modifying tuple => throws an error \nmy_list[0] = 'ansh'    # modifying list => list modified\nprint(my_tuple[0])     # output => 'sara'\nprint(my_list[0])     # output => 'ansh'\n7.   What are the common built-in data types in Python?\nPage 10\n© Copyright by Interviewbit\nPython Interview Questions\nThere are sever"
+    },
+    {
+        "chunk_id": 34,
+        "text": "data types in Python?\nPage 10\n© Copyright by Interviewbit\nPython Interview Questions\nThere are several built-in data types in Python. Although, Python doesn't require data\ntypes to be defined explicitly during variable declarations type errors are likely to\noccur if the knowledge of data types and their compatibility with each other are\nneglected. Python provides \ntype() and \nisinstance() functions to check the type\nof these variables. These data types can be grouped into the following categorie"
+    },
+    {
+        "chunk_id": 35,
+        "text": "s to check the type\nof these variables. These data types can be grouped into the following categories-\nNone Type:\nNone keyword represents the null values in Python. Boolean equality\noperation can be performed using these NoneType objects.\nClass Name\nDescription\nNoneType\nRepresents the NULL values in Python.\nNumeric Types:\nThere are three distinct numeric types - integers, floating-point numbers, and\ncomplex numbers. Additionally, booleans are a sub-type of integers.\nClass Name\nDescription\nint\nSt"
+    },
+    {
+        "chunk_id": 36,
+        "text": "nd\ncomplex numbers. Additionally, booleans are a sub-type of integers.\nClass Name\nDescription\nint\nStores integer literals including hex, octal and\nbinary numbers as integers\nfloat\nStores literals containing decimal values\nand/or exponent signs as floating-point\nnumbers\ncomplex\nStores complex numbers in the form (A + Bj)\nand has attributes: \nreal and \nimag\nbool\nStores boolean value (True or False).\nPage 11\n© Copyright by Interviewbit\nPython Interview Questions\nNote: The standard library also incl"
+    },
+    {
+        "chunk_id": 37,
+        "text": "\nPage 11\n© Copyright by Interviewbit\nPython Interview Questions\nNote: The standard library also includes fractions to store rational numbers and\ndecimal to store floating-point numbers with user-defined precision.\nSequence Types:\nAccording to Python Docs, there are three basic Sequence Types - lists, tuples,\nand range objects. Sequence types have the \nin and \nnot in operators\ndefined for their traversing their elements. These operators share the same\npriority as the comparison operations.\nClass "
+    },
+    {
+        "chunk_id": 38,
+        "text": "versing their elements. These operators share the same\npriority as the comparison operations.\nClass Name\nDescription\nlist\nMutable sequence used to store collection of\nitems.\ntuple\nImmutable sequence used to store collection\nof items.\nrange\nRepresents an immutable sequence of\nnumbers generated during execution.\nstr\nImmutable sequence of Unicode code points\nto store textual data.\nNote: The standard library also includes additional types for processing:\n1. Binary data such as \nbytearray bytes \nmemo"
+    },
+    {
+        "chunk_id": 39,
+        "text": "library also includes additional types for processing:\n1. Binary data such as \nbytearray bytes \nmemoryview , and\n2. Text strings such as \nstr .\nMapping Types:\nA mapping object can map hashable values to random objects in Python. Mappings\nobjects are mutable and there is currently only one standard mapping type, the\ndictionary.\nPage 12\n© Copyright by Interviewbit\nPython Interview Questions\nClass Name \nDescription\ndict\nStores comma-separated list of key: value\npairs\nSet Types:\nCurrently, Python ha"
+    },
+    {
+        "chunk_id": 40,
+        "text": "me \nDescription\ndict\nStores comma-separated list of key: value\npairs\nSet Types:\nCurrently, Python has two built-in set types - set and frozenset. set type is\nmutable and supports methods like \nadd() and \nremove() . frozenset type is\nimmutable and can't be modified aȅer creation.\nClass Name\nDescription\nset\nMutable unordered collection of distinct\nhashable objects.\nfrozenset\nImmutable collection of distinct hashable\nobjects.\nNote: \nset is mutable and thus cannot be used as key for a dictionary. On"
+    },
+    {
+        "chunk_id": 41,
+        "text": "distinct hashable\nobjects.\nNote: \nset is mutable and thus cannot be used as key for a dictionary. On the other\nhand, \nfrozenset is immutable and thus, hashable, and can be used as a dictionary\nkey or as an element of another set.\nPage 13\n© Copyright by Interviewbit\nPython Interview Questions\nModules:\nModule is an additional built-in type supported by the Python Interpreter. It\nsupports one special operation, i.e., attribute access: \nmymod.myobj , where\nmymod is a module and myobj references a na"
+    },
+    {
+        "chunk_id": 42,
+        "text": " operation, i.e., attribute access: \nmymod.myobj , where\nmymod is a module and myobj references a name defined in m's symbol table.\nThe module's symbol table resides in a very special attribute of the module\n__dict__, but direct assignment to this module is neither possible nor\nrecommended.\nCallable Types:\nCallable types are the types to which function call can be applied. They can be\nuser-defined functions, instance methods, generator functions, and some\nother built-in functions, methods and cl"
+    },
+    {
+        "chunk_id": 43,
+        "text": " functions, instance methods, generator functions, and some\nother built-in functions, methods and classes.\nRefer to the documentation at docs.python.org for a detailed view of the\ncallable types.\n8.   What is pass in Python?\nThe \npass keyword represents a null operation in Python. It is generally used for\nthe purpose of filling up empty blocks of code which may execute during runtime but\nhas yet to be written. Without the pass statement in the following code, we may run\ninto some errors during c"
+    },
+    {
+        "chunk_id": 44,
+        "text": "o be written. Without the pass statement in the following code, we may run\ninto some errors during code execution.\ndef myEmptyFunc(): \n   # do nothing \n   pass \nmyEmptyFunc()    # nothing happens\n## Without the pass keyword\n# File \"<stdin>\", line 3\n# IndentationError: expected an indented block\n9.   What are modules and packages in Python?\nPython packages and Python modules are two mechanisms that allow for modular\nprogramming in Python. Modularizing has several advantages -\nPage 14\n© Copyright "
+    },
+    {
+        "chunk_id": 45,
+        "text": " allow for modular\nprogramming in Python. Modularizing has several advantages -\nPage 14\n© Copyright by Interviewbit\nPython Interview Questions\nSimplicity: Working on a single module helps you focus on a relatively small\nportion of the problem at hand. This makes development easier and less error-\nprone.\nMaintainability: Modules are designed to enforce logical boundaries between\ndiﬀerent problem domains. If they are written in a manner that reduces\ninterdependency, it is less likely that modifica"
+    },
+    {
+        "chunk_id": 46,
+        "text": "mains. If they are written in a manner that reduces\ninterdependency, it is less likely that modifications in a module might impact\nother parts of the program.\nReusability: Functions defined in a module can be easily reused by other parts\nof the application.\nScoping: Modules typically define a separate namespace, which helps avoid\nconfusion between identifiers from other parts of the program.\nModules, in general, are simply Python files with a .py extension and can have a set of\nfunctions, classe"
+    },
+    {
+        "chunk_id": 47,
+        "text": "es, in general, are simply Python files with a .py extension and can have a set of\nfunctions, classes, or variables defined and implemented. They can be imported and\ninitialized once using the \nimport statement. If partial functionality is needed,\nimport the requisite classes or functions using \nfrom foo import bar .\nPackages allow for hierarchial structuring of the module namespace using dot\nnotation. As, modules help avoid clashes between global variable names, in a similar\nmanner, packages he"
+    },
+    {
+        "chunk_id": 48,
+        "text": "tion. As, modules help avoid clashes between global variable names, in a similar\nmanner, packages help avoid clashes between module names.\nCreating a package is easy since it makes use of the system's inherent file structure.\nSo just stuﬀ the modules into a folder and there you have it, the folder name as the\npackage name. Importing a module or its contents from this package requires the\npackage name as prefix to the module name joined by a dot.\nNote: You can technically import the package as we"
+    },
+    {
+        "chunk_id": 49,
+        "text": "ame as prefix to the module name joined by a dot.\nNote: You can technically import the package as well, but alas, it doesn't import the\nmodules within the package to the local namespace, thus, it is practically useless.\n10.   What are global, protected and private attributes in\nPython?\nPage 15\n© Copyright by Interviewbit\nPython Interview Questions\nGlobal variables are public variables that are defined in the global scope. To use\nthe variable in the global scope inside a function, we use the \nglo"
+    },
+    {
+        "chunk_id": 50,
+        "text": "ined in the global scope. To use\nthe variable in the global scope inside a function, we use the \nglobal keyword.\nProtected attributes are attributes defined with an underscore prefixed to their\nidentifier eg. _sara. They can still be accessed and modified from outside the\nclass they are defined in but a responsible developer should refrain from doing\nso.\nPrivate attributes are attributes with double underscore prefixed to their\nidentifier eg. __ansh. They cannot be accessed or modified from the "
+    },
+    {
+        "chunk_id": 51,
+        "text": "le underscore prefixed to their\nidentifier eg. __ansh. They cannot be accessed or modified from the outside\ndirectly and will result in an AttributeError if such an attempt is made.\n11.   What is the use of self in Python?\nSelf is used to represent the instance of the class. With this keyword, you can access\nthe attributes and methods of the class in python. It binds the attributes with the\ngiven arguments. self is used in diﬀerent places and oȅen thought to be a keyword.\nBut unlike in C++, self"
+    },
+    {
+        "chunk_id": 52,
+        "text": "arguments. self is used in diﬀerent places and oȅen thought to be a keyword.\nBut unlike in C++, self is not a keyword in Python.\n12.   What is __init__?\n__init__ is a contructor method in Python and is automatically called to allocate\nmemory when a new object/instance is created. All classes have a __init__ method\nassociated with them. It helps in distinguishing methods and attributes of a class\nfrom local variables.\n# class definition\nclass Student: \n   def __init__(self, fname, lname, age, sec"
+    },
+    {
+        "chunk_id": 53,
+        "text": "rom local variables.\n# class definition\nclass Student: \n   def __init__(self, fname, lname, age, section): \n       self.firstname = fname \n       self.lastname = lname \n       self.age = age \n       self.section = section \n# creating a new object \nstu1 = Student(\"Sara\", \"Ansh\", 22, \"A2\")\n13.   What is break, continue and pass in Python?\nPage 16\n© Copyright by Interviewbit\nPython Interview Questions\nBreak\nThe break statement terminates the loop\nimmediately and the control flows to the\nstatement a"
+    },
+    {
+        "chunk_id": 54,
+        "text": "s\nBreak\nThe break statement terminates the loop\nimmediately and the control flows to the\nstatement aȅer the body of the loop.\nContinue\nThe continue statement terminates the current\niteration of the statement, skips the rest of the\ncode in the current iteration and the control\nflows to the next iteration of the loop.\nPass\nAs explained above, the pass keyword in Python\nis generally used to fill up empty blocks and is\nsimilar to an empty statement represented by a\nsemi-colon in languages such as Ja"
+    },
+    {
+        "chunk_id": 55,
+        "text": "mpty blocks and is\nsimilar to an empty statement represented by a\nsemi-colon in languages such as Java, C++,\nJavascript, etc.\npat = [1, 3, 2, 1, 2, 3, 1, 0, 1, 3] \nfor p in pat: \n   pass \n   if (p == 0): \n       current = p \n       break \n   elif (p % 2 == 0): \n       continue \n   print(p)    # output => 1 3 1 3 1\nprint(current)    # output => 0\n14.   What are unit tests in Python?\nPage 17\n© Copyright by Interviewbit\nPython Interview Questions\nUnit test is a unit testing framework of Python.\nUni"
+    },
+    {
+        "chunk_id": 56,
+        "text": "ight by Interviewbit\nPython Interview Questions\nUnit test is a unit testing framework of Python.\nUnit testing means testing diﬀerent components of soȅware separately. Can you\nthink about why unit testing is important? Imagine a scenario, you are building\nsoȅware that uses three components namely A, B, and C. Now, suppose your\nsoȅware breaks at a point time. How will you find which component was\nresponsible for breaking the soȅware? Maybe it was component A that failed,\nwhich in turn failed compo"
+    },
+    {
+        "chunk_id": 57,
+        "text": "sponsible for breaking the soȅware? Maybe it was component A that failed,\nwhich in turn failed component B, and this actually failed the soȅware. There\ncan be many such combinations.\nThis is why it is necessary to test each and every component properly so that we\nknow which component might be highly responsible for the failure of the\nsoȅware.\n15.   What is docstring in Python?\nDocumentation string or docstring is a multiline string used to document a\nspecific code segment.\nThe docstring should d"
+    },
+    {
+        "chunk_id": 58,
+        "text": " or docstring is a multiline string used to document a\nspecific code segment.\nThe docstring should describe what the function or method does.\n16.   What is slicing in Python?\nAs the name suggests, ‘slicing’ is taking parts of.\nSyntax for slicing is [start : stop : step]\nstart is the starting index from where to slice a list or tuple\nstop is the ending index or where to sop.\nstep is the number of steps to jump.\nDefault value for start is 0, stop is number of items, step is 1.\nSlicing can be done "
+    },
+    {
+        "chunk_id": 59,
+        "text": "teps to jump.\nDefault value for start is 0, stop is number of items, step is 1.\nSlicing can be done on strings, arrays, lists, and tuples.\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] \nprint(numbers[1 : : 2])  #output : [2, 4, 6, 8, 10]\n17.   Explain how can you make a Python Script executable on\nUnix?\nScript file must begin with #!/usr/bin/env python\n18.   What is the diﬀerence between Python Arrays and lists?\nPage 18\n© Copyright by Interviewbit\nPython Interview Questions\nArrays in python can only"
+    },
+    {
+        "chunk_id": 60,
+        "text": " and lists?\nPage 18\n© Copyright by Interviewbit\nPython Interview Questions\nArrays in python can only contain elements of same data types i.e., data type of\narray should be homogeneous. It is a thin wrapper around C language arrays and\nconsumes far less memory than lists.\nLists in python can contain elements of diﬀerent data types i.e., data type of lists\ncan be heterogeneous. It has the disadvantage of consuming large memory.\nPython Interview Questions for Experienced\n19.   How is memory managed"
+    },
+    {
+        "chunk_id": 61,
+        "text": "ge of consuming large memory.\nPython Interview Questions for Experienced\n19.   How is memory managed in Python?\nMemory management in Python is handled by the Python Memory Manager.\nThe memory allocated by the manager is in form of a private heap space\ndedicated to Python. All Python objects are stored in this heap and being\nprivate, it is inaccessible to the programmer. Though, python does provide some\ncore API functions to work upon the private heap space.\nAdditionally, Python has an in-built g"
+    },
+    {
+        "chunk_id": 62,
+        "text": " some\ncore API functions to work upon the private heap space.\nAdditionally, Python has an in-built garbage collection to recycle the unused\nmemory for the private heap space.\nPage 19\n© Copyright by Interviewbit\nimport array \na = array.array('i', [1, 2, 3]) \nfor i in a: \n    print(i, end=' ')    #OUTPUT: 1 2 3 \na = array.array('i', [1, 2, 'string'])    #OUTPUT: TypeError: an integer is required (g\na = [1, 2, 'string'] \nfor i in a: \n   print(i, end=' ')    #OUTPUT: 1 2 string\nPython Interview Ques"
+    },
+    {
+        "chunk_id": 63,
+        "text": "a = [1, 2, 'string'] \nfor i in a: \n   print(i, end=' ')    #OUTPUT: 1 2 string\nPython Interview Questions\n20.   What are Python namespaces? Why are they used?\nA namespace in Python ensures that object names in a program are unique and can\nbe used without any conflict. Python implements these namespaces as dictionaries\nwith 'name as key' mapped to a corresponding 'object as value'. This allows for\nmultiple namespaces to use the same name and map it to a separate object. A few\nexamples of namespac"
+    },
+    {
+        "chunk_id": 64,
+        "text": "multiple namespaces to use the same name and map it to a separate object. A few\nexamples of namespaces are as follows:\nLocal Namespace includes local names inside a function. the namespace is\ntemporarily created for a function call and gets cleared when the function\nreturns.\nGlobal Namespace includes names from various imported packages/ modules\nthat are being used in the current project. This namespace is created when the\npackage is imported in the script and lasts until the execution of the sc"
+    },
+    {
+        "chunk_id": 65,
+        "text": "espace is created when the\npackage is imported in the script and lasts until the execution of the script.\nBuilt-in Namespace includes built-in functions of core Python and built-in\nnames for various types of exceptions.\nThe lifecycle of a namespace depends upon the scope of objects they are mapped\nto. If the scope of an object ends, the lifecycle of that namespace comes to an end.\nHence, it isn't possible to access inner namespace objects from an outer namespace.\nPage 20\n© Copyright by Interview"
+    },
+    {
+        "chunk_id": 66,
+        "text": "possible to access inner namespace objects from an outer namespace.\nPage 20\n© Copyright by Interviewbit\nPython Interview Questions\n21.   What is Scope Resolution in Python?\nSometimes objects within the same scope have the same name but function\ndiﬀerently. In such cases, scope resolution comes into play in Python automatically. A\nfew examples of such behavior are:\nPython modules namely 'math' and 'cmath' have a lot of functions that are\ncommon to both of them - \nlog10() , \nacos() , \nexp() etc. T"
+    },
+    {
+        "chunk_id": 67,
+        "text": "'cmath' have a lot of functions that are\ncommon to both of them - \nlog10() , \nacos() , \nexp() etc. To resolve this\nambiguity, it is necessary to prefix them with their respective module, like\nmath.exp() and \ncmath.exp() .\nConsider the code below, an object temp has been initialized to 10 globally and\nthen to 20 on function call. However, the function call didn't change the value of\nthe temp globally. Here, we can observe that Python draws a clear line between\nglobal and local variables, treating"
+    },
+    {
+        "chunk_id": 68,
+        "text": "ly. Here, we can observe that Python draws a clear line between\nglobal and local variables, treating their namespaces as separate identities.\nPage 21\n© Copyright by Interviewbit\nPython Interview Questions\ntemp = 10   # global-scope variable\ndef func(): \n     temp = 20   # local-scope variable \n     print(temp) \nprint(temp)   # output => 10 \nfunc()    # output => 20\nprint(temp)   # output => 10\nThis behavior can be overridden using the \nglobal keyword inside the function, as\nshown in the followin"
+    },
+    {
+        "chunk_id": 69,
+        "text": "s behavior can be overridden using the \nglobal keyword inside the function, as\nshown in the following example:\ntemp = 10   # global-scope variable\ndef func(): \n     global temp \n     temp = 20   # local-scope variable \n     print(temp) \nprint(temp)   # output => 10 \nfunc()    # output => 20\nprint(temp)   # output => 20\n22.   What are decorators in Python?\nDecorators in Python are essentially functions that add functionality to an existing\nfunction in Python without changing the structure of the "
+    },
+    {
+        "chunk_id": 70,
+        "text": "ions that add functionality to an existing\nfunction in Python without changing the structure of the function itself. They are\nrepresented the \n@decorator_name in Python and are called in a bottom-up fashion.\nFor example:\nPage 22\n© Copyright by Interviewbit\nPython Interview Questions\n# decorator function to convert to lowercase\ndef lowercase_decorator(function): \n   def wrapper(): \n       func = function() \n       string_lowercase = func.lower() \n       return string_lowercase \n   return wrapper "
+    },
+    {
+        "chunk_id": 71,
+        "text": "nction() \n       string_lowercase = func.lower() \n       return string_lowercase \n   return wrapper \n# decorator function to split words\ndef splitter_decorator(function): \n   def wrapper(): \n       func = function() \n       string_split = func.split() \n       return string_split \n   return wrapper \n@splitter_decorator # this is executed next\n@lowercase_decorator # this is executed first\ndef hello(): \n   return 'Hello World' \nhello()   # output => [ 'hello' , 'world' ]\nThe beauty of the decorator"
+    },
+    {
+        "chunk_id": 72,
+        "text": "): \n   return 'Hello World' \nhello()   # output => [ 'hello' , 'world' ]\nThe beauty of the decorators lies in the fact that besides adding functionality to the\noutput of the method, they can even accept arguments for functions and can further\nmodify those arguments before passing it to the function itself. The inner nested\nfunction, i.e. 'wrapper' function, plays a significant role here. It is implemented to\nenforce encapsulation and thus, keep itself hidden from the global scope.\n# decorator fu"
+    },
+    {
+        "chunk_id": 73,
+        "text": "lemented to\nenforce encapsulation and thus, keep itself hidden from the global scope.\n# decorator function to capitalize names\ndef names_decorator(function): \n   def wrapper(arg1, arg2): \n       arg1 = arg1.capitalize() \n       arg2 = arg2.capitalize() \n       string_hello = function(arg1, arg2) \n       return string_hello \n   return wrapper \n@names_decorator\ndef say_hello(name1, name2): \n   return 'Hello ' + name1 + '! Hello ' + name2 + '!' \nsay_hello('sara', 'ansh')   # output => 'Hello Sara! "
+    },
+    {
+        "chunk_id": 74,
+        "text": "n 'Hello ' + name1 + '! Hello ' + name2 + '!' \nsay_hello('sara', 'ansh')   # output => 'Hello Sara! Hello Ansh!'\n23.   What are Dict and List comprehensions?\nPage 23\n© Copyright by Interviewbit\nPython Interview Questions\nPython comprehensions, like decorators, are syntactic sugar constructs that help\nbuild altered and filtered lists, dictionaries, or sets from a given list, dictionary, or\nset. Using comprehensions saves a lot of time and code that might be considerably\nmore verbose (containing m"
+    },
+    {
+        "chunk_id": 75,
+        "text": "ng comprehensions saves a lot of time and code that might be considerably\nmore verbose (containing more lines of code). Let's check out some examples, where\ncomprehensions can be truly beneficial:\nPerforming mathematical operations on the entire list\nmy_list = [2, 3, 5, 7, 11] \nsquared_list = [x**2 for x in my_list]    # list comprehension\n# output => [4 , 9 , 25 , 49 , 121] \nsquared_dict = {x:x**2 for x in my_list}    # dict comprehension\n# output => {11: 121, 2: 4 , 3: 9 , 5: 25 , 7: 49}\nPerfo"
+    },
+    {
+        "chunk_id": 76,
+        "text": "2 for x in my_list}    # dict comprehension\n# output => {11: 121, 2: 4 , 3: 9 , 5: 25 , 7: 49}\nPerforming conditional filtering operations on the entire list\nmy_list = [2, 3, 5, 7, 11] \nsquared_list = [x**2 for x in my_list if x%2 != 0]    # list comprehension\n# output => [9 , 25 , 49 , 121] \nsquared_dict = {x:x**2 for x in my_list if x%2 != 0}    # dict comprehension\n# output => {11: 121, 3: 9 , 5: 25 , 7: 49}\nCombining multiple lists into one\nComprehensions allow for multiple iterators and hen"
+    },
+    {
+        "chunk_id": 77,
+        "text": "5: 25 , 7: 49}\nCombining multiple lists into one\nComprehensions allow for multiple iterators and hence, can be used to combine\nmultiple lists into one. \nFlattening a multi-dimensional list\nA similar approach of nested iterators (as above) can be applied to flatten a multi-\ndimensional list or work upon its inner elements. \nPage 24\n© Copyright by Interviewbit\na = [1, 2, 3] \nb = [7, 8, 9] \n[(x + y) for (x,y) in zip(a,b)]  # parallel iterators\n# output => [8, 10, 12] \n[(x,y) for x in a for y in b] "
+    },
+    {
+        "chunk_id": 78,
+        "text": "for (x,y) in zip(a,b)]  # parallel iterators\n# output => [8, 10, 12] \n[(x,y) for x in a for y in b]    # nested iterators\n# output => [(1, 7), (1, 8), (1, 9), (2, 7), (2, 8), (2, 9), (3, 7), (3, 8), (3, 9)] \nPython Interview Questions\nmy_list = [[10,20,30],[40,50,60],[70,80,90]] \nflattened = [x for temp in my_list for x in temp] \n# output => [10, 20, 30, 40, 50, 60, 70, 80, 90]\nNote: List comprehensions have the same eﬀect as the map method in other\nlanguages. They follow the mathematical set bu"
+    },
+    {
+        "chunk_id": 79,
+        "text": "nsions have the same eﬀect as the map method in other\nlanguages. They follow the mathematical set builder notation rather than map\nand filter functions in Python.\n24.   What is lambda in Python? Why is it used?\nLambda is an anonymous function in Python, that can accept any number of\narguments, but can only have a single expression. It is generally used in situations\nrequiring an anonymous function for a short time period. Lambda functions can be\nused in either of the two ways:\nAssigning lambda f"
+    },
+    {
+        "chunk_id": 80,
+        "text": " for a short time period. Lambda functions can be\nused in either of the two ways:\nAssigning lambda functions to a variable:\nmul = lambda a, b : a * b \nprint(mul(2, 5))    # output => 10\nWrapping lambda functions inside another function:\ndef myWrapper(n): \n return lambda a : a * n \nmulFive = myWrapper(5) \nprint(mulFive(2))    # output => 10\n25.   How do you copy an object in Python?\nIn Python, the assignment statement (\n= operator) does not copy objects. Instead,\nit creates a binding between the "
+    },
+    {
+        "chunk_id": 81,
+        "text": "assignment statement (\n= operator) does not copy objects. Instead,\nit creates a binding between the existing object and the target variable name. To\ncreate copies of an object in Python, we need to use the copy module. Moreover,\nthere are two ways of creating copies for the given object using the copy module -\nPage 25\n© Copyright by Interviewbit\nPython Interview Questions\nShallow Copy is a bit-wise copy of an object. The copied object created has an exact\ncopy of the values in the original objec"
+    },
+    {
+        "chunk_id": 82,
+        "text": "e copy of an object. The copied object created has an exact\ncopy of the values in the original object. If either of the values is a reference to other\nobjects, just the reference addresses for the same are copied.\nDeep Copy copies all values recursively from source to target object, i.e. it even\nduplicates the objects referenced by the source object.\nfrom copy import copy, deepcopy \nlist_1 = [1, 2, [3, 5], 4] \n## shallow copy \nlist_2 = copy(list_1)  \nlist_2[3] = 7 \nlist_2[2].append(6) \nlist_2   "
+    },
+    {
+        "chunk_id": 83,
+        "text": ", [3, 5], 4] \n## shallow copy \nlist_2 = copy(list_1)  \nlist_2[3] = 7 \nlist_2[2].append(6) \nlist_2    # output => [1, 2, [3, 5, 6], 7] \nlist_1    # output => [1, 2, [3, 5, 6], 4]\n## deep copy \nlist_3 = deepcopy(list_1) \nlist_3[3] = 8 \nlist_3[2].append(7) \nlist_3    # output => [1, 2, [3, 5, 6, 7], 8] \nlist_1    # output => [1, 2, [3, 5, 6], 4]\n26.   What is the diﬀerence between xrange and range in Python?\nxrange() and range() are quite similar in terms of functionality. They both generate a\nsequ"
+    },
+    {
+        "chunk_id": 84,
+        "text": " Python?\nxrange() and range() are quite similar in terms of functionality. They both generate a\nsequence of integers, with the only diﬀerence that \nrange() returns a Python list,\nwhereas, \nxrange() returns an xrange object.\nSo how does that make a diﬀerence? It sure does, because unlike range(), xrange()\ndoesn't generate a static list, it creates the value on the go. This technique is\ncommonly used with an object-type generator and has been termed as \"yielding\".\nYielding is crucial in applicatio"
+    },
+    {
+        "chunk_id": 85,
+        "text": "d with an object-type generator and has been termed as \"yielding\".\nYielding is crucial in applications where memory is a constraint. Creating a static list\nas in range() can lead to a \nMemory Error in such conditions, while, xrange() can\nhandle it optimally by using just enough memory for the generator (significantly less\nin comparison).\nPage 26\n© Copyright by Interviewbit\nPython Interview Questions\nfor i in xrange(10):    # numbers from o to 9 \n   print i       # output => 0 1 2 3 4 5 6 7 8 9\nf"
+    },
+    {
+        "chunk_id": 86,
+        "text": "ns\nfor i in xrange(10):    # numbers from o to 9 \n   print i       # output => 0 1 2 3 4 5 6 7 8 9\nfor i in xrange(1,10):    # numbers from 1 to 9 \n   print i       # output => 1 2 3 4 5 6 7 8 9\nfor i in xrange(1, 10, 2):    # skip by two for next \n   print i       # output => 1 3 5 7 9\nNote: xrange has been deprecated as of Python 3.x. Now \nrange does exactly the\nsame as what \nxrange used to do in Python 2.x, since it was way better to use\nxrange() than the original range() function in Python 2"
+    },
+    {
+        "chunk_id": 87,
+        "text": "n Python 2.x, since it was way better to use\nxrange() than the original range() function in Python 2.x.\n27.   What is pickling and unpickling?\nPython library oﬀers a feature - serialization out of the box. Serializing an object\nrefers to transforming it into a format that can be stored, so as to be able to\ndeserialize it, later on, to obtain the original object. Here, the pickle module comes\ninto play.\nPickling:\nPickling is the name of the serialization process in Python. Any object in Python\nca"
+    },
+    {
+        "chunk_id": 88,
+        "text": "play.\nPickling:\nPickling is the name of the serialization process in Python. Any object in Python\ncan be serialized into a byte stream and dumped as a file in the memory. The\nprocess of pickling is compact but pickle objects can be compressed further.\nMoreover, pickle keeps track of the objects it has serialized and the serialization\nis portable across versions.\nThe function used for the above process is \npickle.dump() .\nUnpickling:\nUnpickling is the complete inverse of pickling. It deserializes"
+    },
+    {
+        "chunk_id": 89,
+        "text": "cess is \npickle.dump() .\nUnpickling:\nUnpickling is the complete inverse of pickling. It deserializes the byte stream to\nrecreate the objects stored in the file and loads the object to memory.\nThe function used for the above process is \npickle.load() .\nNote: Python has another, more primitive, serialization module called marshall,\nwhich exists primarily to support .pyc files in Python and diﬀers significantly from\nthe pickle.\nPage 27\n© Copyright by Interviewbit\nPython Interview Questions\n28.   Wh"
+    },
+    {
+        "chunk_id": 90,
+        "text": "gnificantly from\nthe pickle.\nPage 27\n© Copyright by Interviewbit\nPython Interview Questions\n28.   What are generators in Python?\nGenerators are functions that return an iterable collection of items, one at a time, in\na set manner. Generators, in general, are used to create iterators with a diﬀerent\napproach. They employ the use of \nyield keyword rather than \nreturn to return a\ngenerator object.\nLet's try and build a generator for fibonacci numbers -\nPage 28\n© Copyright by Interviewbit\nPython Int"
+    },
+    {
+        "chunk_id": 91,
+        "text": "t's try and build a generator for fibonacci numbers -\nPage 28\n© Copyright by Interviewbit\nPython Interview Questions\n## generate fibonacci numbers upto n\ndef fib(n): \n   p, q = 0, 1 \n   while(p < n): \n       yield p \n       p, q = q, p + q \nx = fib(10)    # create generator object  \n  \n## iterating using __next__(), for Python2, use next() \nx.__next__()    # output => 0 \nx.__next__()    # output => 1 \nx.__next__()    # output => 1 \nx.__next__()    # output => 2 \nx.__next__()    # output => 3 \nx."
+    },
+    {
+        "chunk_id": 92,
+        "text": "> 1 \nx.__next__()    # output => 1 \nx.__next__()    # output => 2 \nx.__next__()    # output => 3 \nx.__next__()    # output => 5 \nx.__next__()    # output => 8 \nx.__next__()    # error \n  \n## iterating using loop\nfor i in fib(10): \n   print(i)    # output => 0 1 1 2 3 5 8\n29.   What is PYTHONPATH in Python?\nPYTHONPATH is an environment variable which you can set to add additional\ndirectories where Python will look for modules and packages. This is especially useful\nin maintaining Python libraries"
+    },
+    {
+        "chunk_id": 93,
+        "text": "Python will look for modules and packages. This is especially useful\nin maintaining Python libraries that you do not wish to install in the global default\nlocation.\n30.   What is the use of help() and dir() functions?\nhelp() function in Python is used to display the documentation of modules, classes,\nfunctions, keywords, etc. If no parameter is passed to the \nhelp() function, then an\ninteractive help utility is launched on the console.\ndir() function tries to return a valid list of attributes an"
+    },
+    {
+        "chunk_id": 94,
+        "text": "elp utility is launched on the console.\ndir() function tries to return a valid list of attributes and methods of the object it is\ncalled upon. It behaves diﬀerently with diﬀerent objects, as it aims to produce the\nmost relevant data, rather than the complete information.\nFor Modules/Library objects, it returns a list of all attributes, contained in that\nmodule.\nFor Class Objects, it returns a list of all valid attributes and base attributes.\nWith no arguments passed, it returns a list of attribu"
+    },
+    {
+        "chunk_id": 95,
+        "text": " of all valid attributes and base attributes.\nWith no arguments passed, it returns a list of attributes in the current scope.\nPage 29\n© Copyright by Interviewbit\nPython Interview Questions\n31.   What is the diﬀerence between .py and .pyc files?\n.py files contain the source code of a program. Whereas, .pyc file contains the\nbytecode of your program. We get bytecode aȅer compilation of .py file (source\ncode). .pyc files are not created for all the files that you run. It is only created for\nthe fil"
+    },
+    {
+        "chunk_id": 96,
+        "text": "rce\ncode). .pyc files are not created for all the files that you run. It is only created for\nthe files that you import.\nBefore executing a python program python interpreter checks for the compiled\nfiles. If the file is present, the virtual machine executes it. If not found, it checks\nfor .py file. If found, compiles it to .pyc file and then python virtual machine\nexecutes it.\nHaving .pyc file saves you the compilation time.\n32.   How Python is interpreted?\nPython as a language is not interpreted"
+    },
+    {
+        "chunk_id": 97,
+        "text": "s you the compilation time.\n32.   How Python is interpreted?\nPython as a language is not interpreted or compiled. Interpreted or compiled is\nthe property of the implementation. Python is a bytecode(set of interpreter\nreadable instructions) interpreted generally.\nSource code is a file with .py extension.\nPython compiles the source code to a set of instructions for a virtual machine.\nThe Python interpreter is an implementation of that virtual machine. This\nintermediate format is called “bytecode”."
+    },
+    {
+        "chunk_id": 98,
+        "text": "rpreter is an implementation of that virtual machine. This\nintermediate format is called “bytecode”.\n.py source code is first compiled to give .pyc which is bytecode. This bytecode\ncan be then interpreted by the oﬀicial CPython or JIT(Just in Time compiler)\ncompiled by PyPy.\n33.   How are arguments passed by value or by reference in\npython?\nPass by value: Copy of the actual object is passed. Changing the value of the\ncopy of the object will not change the value of the original object.\nPass by re"
+    },
+    {
+        "chunk_id": 99,
+        "text": "ing the value of the\ncopy of the object will not change the value of the original object.\nPass by reference: Reference to the actual object is passed. Changing the value\nof the new object will change the value of the original object.\nIn Python, arguments are passed by reference, i.e., reference to the actual object is\npassed.\nPage 30\n© Copyright by Interviewbit\nPython Interview Questions\ndef appendNumber(arr): \n   arr.append(4) \narr = [1, 2, 3] \nprint(arr)  #Output: => [1, 2, 3] \nappendNumber(ar"
+    },
+    {
+        "chunk_id": 100,
+        "text": "dNumber(arr): \n   arr.append(4) \narr = [1, 2, 3] \nprint(arr)  #Output: => [1, 2, 3] \nappendNumber(arr) \nprint(arr)  #Output: => [1, 2, 3, 4]\n34.   What are iterators in Python?\nAn iterator is an object.\nIt remembers its state i.e., where it is during iteration (see code below to see\nhow)\n__iter__() method initializes an iterator.\nIt has a __next__() method which returns the next item in iteration and points to\nthe next element. Upon reaching the end of iterable object __next__() must\nreturn Stop"
+    },
+    {
+        "chunk_id": 101,
+        "text": "and points to\nthe next element. Upon reaching the end of iterable object __next__() must\nreturn StopIteration exception.\nIt is also self-iterable.\nIterators are objects with which we can iterate over iterable objects like lists,\nstrings, etc.\nclass ArrayList: \n   def __init__(self, number_list): \n       self.numbers = number_list \n   def __iter__(self): \n       self.pos = 0 \n       return self \n   def __next__(self): \n       if(self.pos < len(self.numbers)): \n           self.pos += 1 \n          "
+    },
+    {
+        "chunk_id": 102,
+        "text": " def __next__(self): \n       if(self.pos < len(self.numbers)): \n           self.pos += 1 \n           return self.numbers[self.pos - 1] \n       else: \n           raise StopIteration \narray_obj = ArrayList([1, 2, 3]) \nit = iter(array_obj) \nprint(next(it)) #output: 2\nprint(next(it)) #output: 3\nprint(next(it)) \n#Throws Exception\n#Traceback (most recent call last):\n#...\n#StopIteration\nPage 31\n© Copyright by Interviewbit\nPython Interview Questions\n35.   Explain how to delete a file in Python?\nUse comm"
+    },
+    {
+        "chunk_id": 103,
+        "text": "ht by Interviewbit\nPython Interview Questions\n35.   Explain how to delete a file in Python?\nUse command os.remove(file_name)\nimport os \nos.remove(\"ChangedFile.csv\") \nprint(\"File Removed!\")\n36.   Explain split() and join() functions in Python?\nYou can use split() function to split a string based on a delimiter to a list of\nstrings.\nYou can use join() function to join a list of strings based on a delimiter to give a\nsingle string.\nstring = \"This is a string.\" \nstring_list = string.split(' ') #deli"
+    },
+    {
+        "chunk_id": 104,
+        "text": "limiter to give a\nsingle string.\nstring = \"This is a string.\" \nstring_list = string.split(' ') #delimiter is ‘space’ character or ‘ ‘\nprint(string_list) #output: ['This', 'is', 'a', 'string.']\nprint(' '.join(string_list)) #output: This is a string.\n37.   What does *args and **kwargs mean?\n*args\n*args is a special syntax used in the function definition to pass variable-length\narguments.\n“*” means variable length and “args” is the name used by convention. You can\nuse any other.\ndef multiply(a, b, "
+    },
+    {
+        "chunk_id": 105,
+        "text": "ariable length and “args” is the name used by convention. You can\nuse any other.\ndef multiply(a, b, *argv): \n   mul = a * b \n   for num in argv: \n       mul *= num \n   return mul \nprint(multiply(1, 2, 3, 4, 5)) #output: 120\n**kwargs\nPage 32\n© Copyright by Interviewbit\nPython Interview Questions\n**kwargs is a special syntax used in the function definition to pass variable-\nlength keyworded arguments.\nHere, also, “kwargs” is used just by convention. You can use any other name.\nKeyworded argument m"
+    },
+    {
+        "chunk_id": 106,
+        "text": "s.\nHere, also, “kwargs” is used just by convention. You can use any other name.\nKeyworded argument means a variable that has a name when passed to a\nfunction.\nIt is actually a dictionary of the variable names and its value.\ndef tellArguments(**kwargs): \n   for key, value in kwargs.items(): \n       print(key + \": \" + value) \ntellArguments(arg1 = \"argument 1\", arg2 = \"argument 2\", arg3 = \"argument 3\") \n#output:\n# arg1: argument 1\n# arg2: argument 2\n# arg3: argument 3\n38.   What are negative indexe"
+    },
+    {
+        "chunk_id": 107,
+        "text": "\") \n#output:\n# arg1: argument 1\n# arg2: argument 2\n# arg3: argument 3\n38.   What are negative indexes and why are they used?\nNegative indexes are the indexes from the end of the list or tuple or string.\nArr[-1] means the last element of array Arr[]\narr = [1, 2, 3, 4, 5, 6] \n#get the last element\nprint(arr[-1]) #output 6\n#get the second last element\nprint(arr[-2]) #output 5\nPython OOPS Interview Questions\n39.   How do you create a class in Python?\nTo create a class in python, we use the keyword “"
+    },
+    {
+        "chunk_id": 108,
+        "text": "estions\n39.   How do you create a class in Python?\nTo create a class in python, we use the keyword “class” as shown in the example\nbelow:\nclass InterviewbitEmployee: \n   def __init__(self, emp_name): \n       self.emp_name = emp_name\nTo instantiate or create an object from the class created above, we do the following:\nPage 33\n© Copyright by Interviewbit\nPython Interview Questions\nemp_1=InterviewbitEmployee(\"Mr. Employee\")\nTo access the name attribute, we just call the attribute using the dot oper"
+    },
+    {
+        "chunk_id": 109,
+        "text": "Employee(\"Mr. Employee\")\nTo access the name attribute, we just call the attribute using the dot operator as\nshown below:\nprint(emp_1.emp_name) \n# Prints Mr. Employee\nTo create methods inside the class, we include the methods under the scope of the\nclass as shown below:\nclass InterviewbitEmployee: \n   def __init__(self, emp_name): \n       self.emp_name = emp_name \n        \n   def introduce(self): \n       print(\"Hello I am \" + self.emp_name)\nThe self parameter in the init and introduce functions r"
+    },
+    {
+        "chunk_id": 110,
+        "text": "       print(\"Hello I am \" + self.emp_name)\nThe self parameter in the init and introduce functions represent the reference to the\ncurrent class instance which is used for accessing attributes and methods of that\nclass. The self parameter has to be the first parameter of any method defined inside\nthe class. The method of the class InterviewbitEmployee can be accessed as shown\nbelow:\nemp_1.introduce()\nThe overall program would look like this:\nPage 34\n© Copyright by Interviewbit\nPython Interview Qu"
+    },
+    {
+        "chunk_id": 111,
+        "text": "()\nThe overall program would look like this:\nPage 34\n© Copyright by Interviewbit\nPython Interview Questions\nclass InterviewbitEmployee: \n   def __init__(self, emp_name): \n       self.emp_name = emp_name \n        \n   def introduce(self): \n       print(\"Hello I am \" + self.emp_name) \n        \n# create an object of InterviewbitEmployee class \nemp_1 = InterviewbitEmployee(\"Mr Employee\") \nprint(emp_1.emp_name)    #print employee name \nemp_1.introduce()        #introduce the employee\n40.   How does in"
+    },
+    {
+        "chunk_id": 112,
+        "text": "mp_name)    #print employee name \nemp_1.introduce()        #introduce the employee\n40.   How does inheritance work in python? Explain it with an\nexample.\nInheritance gives the power to a class to access all attributes and methods of another\nclass. It aids in code reusability and helps the developer to maintain applications\nwithout redundant code. The class inheriting from another class is a child class or\nalso called a derived class. The class from which a child class derives the members are\ncal"
+    },
+    {
+        "chunk_id": 113,
+        "text": "class or\nalso called a derived class. The class from which a child class derives the members are\ncalled parent class or superclass.\nPython supports diﬀerent kinds of inheritance, they are:\nSingle Inheritance: Child class derives members of one parent class.\nPage 35\n© Copyright by Interviewbit\nPython Interview Questions\n# Parent class\nclass ParentClass: \n    def par_func(self): \n         print(\"I am parent class function\") \n \n# Child class\nclass ChildClass(ParentClass): \n    def child_func(self):"
+    },
+    {
+        "chunk_id": 114,
+        "text": "m parent class function\") \n \n# Child class\nclass ChildClass(ParentClass): \n    def child_func(self): \n         print(\"I am child class function\") \n \n# Driver code \nobj1 = ChildClass() \nobj1.par_func() \nobj1.child_func()\nMulti-level Inheritance: The members of the parent class, A, are inherited by\nchild class which is then inherited by another child class, B. The features of the\nbase class and the derived class are further inherited into the new derived class,\nC. Here, A is the grandfather class "
+    },
+    {
+        "chunk_id": 115,
+        "text": "derived class are further inherited into the new derived class,\nC. Here, A is the grandfather class of class C.\nPage 36\n© Copyright by Interviewbit\nPython Interview Questions\nPage 37\n© Copyright by Interviewbit\nPython Interview Questions\n# Parent class\nclass A: \n   def __init__(self, a_name): \n       self.a_name = a_name \n    \n# Intermediate class\nclass B(A): \n   def __init__(self, b_name, a_name): \n       self.b_name = b_name \n       # invoke constructor of class A \n       A.__init__(self, a_na"
+    },
+    {
+        "chunk_id": 116,
+        "text": ": \n       self.b_name = b_name \n       # invoke constructor of class A \n       A.__init__(self, a_name) \n \n# Child class\nclass C(B): \n   def __init__(self,c_name, b_name, a_name): \n       self.c_name = c_name \n       # invoke constructor of class B \n       B.__init__(self, b_name, a_name) \n        \n   def display_names(self): \n       print(\"A name : \", self.a_name) \n       print(\"B name : \", self.b_name) \n       print(\"C name : \", self.c_name) \n \n#  Driver code \nobj1 = C('child', 'intermediate',"
+    },
+    {
+        "chunk_id": 117,
+        "text": "b_name) \n       print(\"C name : \", self.c_name) \n \n#  Driver code \nobj1 = C('child', 'intermediate', 'parent') \nprint(obj1.a_name) \nobj1.display_names() \n \nMultiple Inheritance: This is achieved when one child class derives members\nfrom more than one parent class. All features of parent classes are inherited in\nthe child class.\nPage 38\n© Copyright by Interviewbit\nPython Interview Questions\n# Parent class1\nclass Parent1: \n   def parent1_func(self): \n       print(\"Hi I am first Parent\") \n \n# Paren"
+    },
+    {
+        "chunk_id": 118,
+        "text": "t class1\nclass Parent1: \n   def parent1_func(self): \n       print(\"Hi I am first Parent\") \n \n# Parent class2\nclass Parent2: \n   def parent2_func(self): \n       print(\"Hi I am second Parent\") \n \n# Child class\nclass Child(Parent1, Parent2): \n   def child_func(self): \n       self.parent1_func() \n       self.parent2_func() \n \n# Driver's code \nobj1 = Child() \nobj1.child_func()\nHierarchical Inheritance: When a parent class is derived by more than one child\nclass, it is called hierarchical inheritance."
+    },
+    {
+        "chunk_id": 119,
+        "text": " When a parent class is derived by more than one child\nclass, it is called hierarchical inheritance.\nPage 39\n© Copyright by Interviewbit\nPython Interview Questions\n# Base class\nclass A: \n     def a_func(self): \n         print(\"I am from the parent class.\") \n \n# 1st Derived class\nclass B(A): \n     def b_func(self): \n         print(\"I am from the first child.\") \n \n# 2nd Derived class\nclass C(A): \n     def c_func(self): \n         print(\"I am from the second child.\") \n  \n# Driver's code \nobj1 = B() "
+    },
+    {
+        "chunk_id": 120,
+        "text": "   def c_func(self): \n         print(\"I am from the second child.\") \n  \n# Driver's code \nobj1 = B() \nobj2 = C() \nobj1.a_func() \nobj1.b_func()    #child 1 method \nobj2.a_func() \nobj2.c_func()    #child 2 method\n41.   How do you access parent members in the child class?\nPage 40\n© Copyright by Interviewbit\nPython Interview Questions\nFollowing are the ways using which you can access parent class members within a\nchild class:\nBy using Parent class name: You can use the name of the parent class to acc"
+    },
+    {
+        "chunk_id": 121,
+        "text": "rs within a\nchild class:\nBy using Parent class name: You can use the name of the parent class to access\nthe attributes as shown in the example below:\nclass Parent(object):   \n   # Constructor \n   def __init__(self, name): \n       self.name = name     \n  \nclass Child(Parent):  \n   # Constructor \n   def __init__(self, name, age): \n       Parent.name = name \n       self.age = age \n  \n   def display(self): \n       print(Parent.name, self.age) \n  \n# Driver Code \nobj = Child(\"Interviewbit\", 6) \nobj.di"
+    },
+    {
+        "chunk_id": 122,
+        "text": "elf): \n       print(Parent.name, self.age) \n  \n# Driver Code \nobj = Child(\"Interviewbit\", 6) \nobj.display()\nBy using super(): The parent class members can be accessed in child class using\nthe super keyword.\nPage 41\n© Copyright by Interviewbit\nPython Interview Questions\nclass Parent(object): \n   # Constructor \n   def __init__(self, name): \n       self.name = name     \n  \nclass Child(Parent): \n   # Constructor \n   def __init__(self, name, age):          \n       '''  \n       In Python 3.x, we can a"
+    },
+    {
+        "chunk_id": 123,
+        "text": "Constructor \n   def __init__(self, name, age):          \n       '''  \n       In Python 3.x, we can also use super().__init__(name) \n       '''  \n       super(Child, self).__init__(name) \n       self.age = age \n  \n   def display(self): \n      # Note that Parent.name cant be used  \n      # here since super() is used in the constructor \n      print(self.name, self.age) \n   \n# Driver Code \nobj = Child(\"Interviewbit\", 6) \nobj.display()\n42.   Are access specifiers used in python?\nPython does not make "
+    },
+    {
+        "chunk_id": 124,
+        "text": "(\"Interviewbit\", 6) \nobj.display()\n42.   Are access specifiers used in python?\nPython does not make use of access specifiers specifically like private, public,\nprotected, etc. However, it does not derive this from any variables. It has the concept\nof imitating the behaviour of variables by making use of a single (protected) or\ndouble underscore (private) as prefixed to the variable names. By default, the\nvariables without prefixed underscores are public.\nExample:\nPage 42\n© Copyright by Interview"
+    },
+    {
+        "chunk_id": 125,
+        "text": "lt, the\nvariables without prefixed underscores are public.\nExample:\nPage 42\n© Copyright by Interviewbit\nPython Interview Questions\n# to demonstrate access specifiers\nclass InterviewbitEmployee: \n    \n    # protected members \n    _emp_name = None \n    _age = None \n     \n    # private members \n    __branch = None \n     \n    # constructor \n    def __init__(self, emp_name, age, branch):  \n         self._emp_name = emp_name \n         self._age = age \n         self.__branch = branch \n     \n    #public"
+    },
+    {
+        "chunk_id": 126,
+        "text": "f._emp_name = emp_name \n         self._age = age \n         self.__branch = branch \n     \n    #public member \n    def display(): \n        print(self._emp_name +\" \"+self._age+\" \"+self.__branch)\n43.   Is it possible to call parent class without its instance\ncreation?\nYes, it is possible if the base class is instantiated by other child classes or if the base\nclass is a static method.\n44.   How is an empty class created in python?\nAn empty class does not have any members defined in it. It is created "
+    },
+    {
+        "chunk_id": 127,
+        "text": "mpty class created in python?\nAn empty class does not have any members defined in it. It is created by using the\npass keyword (the pass command does nothing in python). We can create objects for\nthis class outside the class.\nFor example-\nclass EmptyClassDemo: \n   pass \nobj=EmptyClassDemo() \nobj.name=\"Interviewbit\"\nprint(\"Name created= \",obj.name)\nOutput:\nName created = Interviewbit\nPage 43\n© Copyright by Interviewbit\nPython Interview Questions\n45.   Diﬀerentiate between new and override modifier"
+    },
+    {
+        "chunk_id": 128,
+        "text": "ight by Interviewbit\nPython Interview Questions\n45.   Diﬀerentiate between new and override modifiers.\nThe new modifier is used to instruct the compiler to use the new implementation\nand not the base class function. The Override modifier is useful for overriding a base\nclass function inside the child class.\n46.   Why is finalize used?\nFinalize method is used for freeing up the unmanaged resources and clean up before\nthe garbage collection method is invoked. This helps in performing memory\nmanage"
+    },
+    {
+        "chunk_id": 129,
+        "text": "and clean up before\nthe garbage collection method is invoked. This helps in performing memory\nmanagement tasks.\n47.   What is init method in python?\nThe init method works similarly to the constructors in Java. The method is run as\nsoon as an object is instantiated. It is useful for initializing any attributes or default\nbehaviour of the object at the time of instantiation.\nFor example:\n48.   How will you check if a class is a child of another class?\nThis is done by using a method called issubcla"
+    },
+    {
+        "chunk_id": 130,
+        "text": "ill you check if a class is a child of another class?\nThis is done by using a method called issubclass() provided by python. The method\ntells us if any class is a child of another class by returning true or false accordingly.\nFor example:\nPage 44\n© Copyright by Interviewbit\nclass InterviewbitEmployee: \n \n   # init method / constructor \n   def __init__(self, emp_name): \n       self.emp_name = emp_name \n \n   # introduce method \n   def introduce(self): \n       print('Hello, I am ', self.emp_name) \n"
+    },
+    {
+        "chunk_id": 131,
+        "text": "ame \n \n   # introduce method \n   def introduce(self): \n       print('Hello, I am ', self.emp_name) \n \nemp = InterviewbitEmployee('Mr Employee')    # __init__ method is called here and initi\nemp.introduce()\nPython Interview Questions\nclass Parent(object): \n   pass    \n  \nclass Child(Parent): \n   pass    \n  \n# Driver Code\nprint(issubclass(Child, Parent))    #True\nprint(issubclass(Parent, Child))    #False\nWe can check if an object is an instance of a class by making use of isinstance()\nmethod:\nobj"
+    },
+    {
+        "chunk_id": 132,
+        "text": "#False\nWe can check if an object is an instance of a class by making use of isinstance()\nmethod:\nobj1 = Child() \nobj2 = Parent() \nprint(isinstance(obj2, Child))    #False \nprint(isinstance(obj2, Parent))   #True \nPython Pandas Interview Questions\n49.   What do you know about pandas?\nPandas is an open-source, python-based library used in data manipulation\napplications requiring high performance. The name is derived from “Panel Data”\nhaving multidimensional data. This was developed in 2008 by Wes "
+    },
+    {
+        "chunk_id": 133,
+        "text": "e name is derived from “Panel Data”\nhaving multidimensional data. This was developed in 2008 by Wes McKinney and\nwas developed for data analysis.\nPandas are useful in performing 5 major steps of data analysis - Load the data,\nclean/manipulate it, prepare it, model it, and analyze the data.\n50.   Define pandas dataframe.\nA dataframe is a 2D mutable and tabular structure for representing data labelled with\naxes - rows and columns.\nThe syntax for creating dataframe:\nimport pandas as pd \ndataframe ="
+    },
+    {
+        "chunk_id": 134,
+        "text": "ed with\naxes - rows and columns.\nThe syntax for creating dataframe:\nimport pandas as pd \ndataframe = pd.DataFrame( data, index, columns, dtype)\nwhere:\nPage 45\n© Copyright by Interviewbit\nPython Interview Questions\ndata - Represents various forms like series, map, ndarray, lists, dict etc.\nindex - Optional argument that represents an index to row labels.\ncolumns - Optional argument for column labels.\nDtype - the data type of each column. Again optional.\n51.   How will you combine diﬀerent pandas "
+    },
+    {
+        "chunk_id": 135,
+        "text": "s.\nDtype - the data type of each column. Again optional.\n51.   How will you combine diﬀerent pandas dataframes?\nThe dataframes can be combines using the below approaches:\nappend() method: This is used to stack the dataframes horizontally. Syntax:\ndf1.append(df2)\nconcat() method: This is used to stack dataframes vertically. This is best used\nwhen the dataframes have the same columns and similar fields. Syntax:\npd.concat([df1, df2]) \njoin() method: This is used for extracting data from various dat"
+    },
+    {
+        "chunk_id": 136,
+        "text": "lds. Syntax:\npd.concat([df1, df2]) \njoin() method: This is used for extracting data from various dataframes having\none or more common columns.\ndf1.join(df2)\n52.   Can you create a series from the dictionary object in\npandas?\nOne dimensional array capable of storing diﬀerent data types is called a series. We\ncan create pandas series from a dictionary object as shown below:\nPage 46\n© Copyright by Interviewbit\nPython Interview Questions\nimport pandas as pd     \ndict_info = {'key1' : 2.0, 'key2' : 3"
+    },
+    {
+        "chunk_id": 137,
+        "text": "terviewbit\nPython Interview Questions\nimport pandas as pd     \ndict_info = {'key1' : 2.0, 'key2' : 3.1, 'key3' : 2.2}   \nseries_obj = pd.Series(dict_info)     \nprint (series_obj)     \nOutput: \nx     2.0 \ny     3.1 \nz     2.2 \ndtype: float64\nIf an index is not specified in the input method, then the keys of the dictionaries are\nsorted in ascending order for constructing the index. In case the index is passed, then\nvalues of the index label will be extracted from the dictionary.\n53.   How will you"
+    },
+    {
+        "chunk_id": 138,
+        "text": " is passed, then\nvalues of the index label will be extracted from the dictionary.\n53.   How will you identify and deal with missing values in a\ndataframe?\nWe can identify if a dataframe has missing values by using the isnull() and isna()\nmethods.\nmissing_data_count=df.isnull().sum()\nWe can handle missing values by either replacing the values in the column with 0 as\nfollows:\ndf[‘column_name’].fillna(0)\nOr by replacing it with the mean value of the column\ndf[‘column_name’] = df[‘column_name’].fill"
+    },
+    {
+        "chunk_id": 139,
+        "text": "a(0)\nOr by replacing it with the mean value of the column\ndf[‘column_name’] = df[‘column_name’].fillna((df[‘column_name’].mean()))\n54.   What do you understand by reindexing in pandas?\nPage 47\n© Copyright by Interviewbit\nPython Interview Questions\nReindexing is the process of conforming a dataframe to a new index with optional\nfilling logic. If the values are missing in the previous index, then NaN/NA is placed in\nthe location. A new object is returned unless a new index is produced that is\nequi"
+    },
+    {
+        "chunk_id": 140,
+        "text": "N/NA is placed in\nthe location. A new object is returned unless a new index is produced that is\nequivalent to the current one. The copy value is set to False. This is also used for\nchanging the index of rows and columns in the dataframe.\n55.   How to add new column to pandas dataframe?\nA new column can be added to a pandas dataframe as follows:\nimport pandas as pd       \ndata_info = {'first' : pd.Series([1, 2, 3], index=['a', 'b', 'c']),     \n       'second' : pd.Series([1, 2, 3, 4], index=['a',"
+    },
+    {
+        "chunk_id": 141,
+        "text": "Series([1, 2, 3], index=['a', 'b', 'c']),     \n       'second' : pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'])}     \n   \ndf = pd.DataFrame(data_info)     \n#To add new column third \ndf['third']=pd.Series([10,20,30],index=['a','b','c'])     \nprint (df)     \n#To add new column fourth \ndf['fourth']=df['first']+info['third']     \nprint (df)    \n56.   How will you delete indices, rows and columns from a\ndataframe?\nTo delete an Index:\nExecute \ndel df.index.name for removing the index by name.\nAlt"
+    },
+    {
+        "chunk_id": 142,
+        "text": "from a\ndataframe?\nTo delete an Index:\nExecute \ndel df.index.name for removing the index by name.\nAlternatively, the \ndf.index.name can be assigned to None.\nFor example, if you have the below dataframe:\n                Column 1 \n   Names              \n   John               1 \n   Jack               2 \n   Judy               3 \n   Jim                4\nTo drop the index name “Names”:\nPage 48\n© Copyright by Interviewbit\nPython Interview Questions\ndf.index.name = None\n# Or run the below:\n# del df.index"
+    },
+    {
+        "chunk_id": 143,
+        "text": "t by Interviewbit\nPython Interview Questions\ndf.index.name = None\n# Or run the below:\n# del df.index.name\nprint(df) \n        Column 1 \nJohn          1 \nJack          2 \nJudy          3 \nJim           4\nTo delete row/column from dataframe:\ndrop() method is used to delete row/column from dataframe.\nThe axis argument is passed to the drop method where if the value is 0, it\nindicates to drop/delete a row and if 1 it has to drop the column.\nAdditionally, we can try to delete the rows/columns in place"
+    },
+    {
+        "chunk_id": 144,
+        "text": "row and if 1 it has to drop the column.\nAdditionally, we can try to delete the rows/columns in place by setting the value\nof inplace to True. This makes sure that the job is done without the need for\nreassignment.\nThe duplicate values from the row/column can be deleted by using the\ndrop_duplicates() method.\nPage 49\n© Copyright by Interviewbit\nPython Interview Questions\n57.   Can you get items of series A that are not available in\nanother series B?\nThis can be achieved by using the \n~ (not/negati"
+    },
+    {
+        "chunk_id": 145,
+        "text": "eries A that are not available in\nanother series B?\nThis can be achieved by using the \n~ (not/negation symbol) and \nisin() method\nas shown below.\nimport pandas as pd \ndf1 = pd.Series([2, 4, 8, 10, 12]) \ndf2 = pd.Series([8, 12, 10, 15, 16]) \ndf1=df1[~df1.isin(df2)] \nprint(df1) \n\"\"\" \nOutput: \n0    2 \n1    4 \ndtype: int64 \n\"\"\"\n58.   How will you get the items that are not common to both the\ngiven series A and B?\nWe can achieve this by first performing the union of both series, then taking the\ninter"
+    },
+    {
+        "chunk_id": 146,
+        "text": "ies A and B?\nWe can achieve this by first performing the union of both series, then taking the\nintersection of both series. Then we follow the approach of getting items of union\nthat are not there in the list of the intersection.\nPage 50\n© Copyright by Interviewbit\nPython Interview Questions\nThe following code demonstrates this:\nimport pandas as pd \nimport numpy as np \ndf1 = pd.Series([2, 4, 5, 8, 10]) \ndf2 = pd.Series([8, 10, 13, 15, 17]) \np_union = pd.Series(np.union1d(df1, df2))  # union of s"
+    },
+    {
+        "chunk_id": 147,
+        "text": " 10]) \ndf2 = pd.Series([8, 10, 13, 15, 17]) \np_union = pd.Series(np.union1d(df1, df2))  # union of series \np_intersect = pd.Series(np.intersect1d(df1, df2))  # intersection of series \nunique_elements = p_union[~p_union.isin(p_intersect)] \nprint(unique_elements) \n\"\"\" \nOutput: \n0     2 \n1     4 \n2     5 \n5    13 \n6    15 \n7    17 \ndtype: int64 \n\"\"\"\n59.   While importing data from diﬀerent sources, can the pandas\nlibrary recognize dates?\nPage 51\n© Copyright by Interviewbit\nPython Interview Question"
+    },
+    {
+        "chunk_id": 148,
+        "text": "an the pandas\nlibrary recognize dates?\nPage 51\n© Copyright by Interviewbit\nPython Interview Questions\nYes, they can, but with some bit of help. We need to add the parse_dates argument\nwhile we are reading data from the sources. Consider an example where we read data\nfrom a CSV file, we may encounter diﬀerent date-time formats that are not readable\nby the pandas library. In this case, pandas provide flexibility to build our custom date\nparser with the help of lambda functions as shown below:\nNump"
+    },
+    {
+        "chunk_id": 149,
+        "text": "e flexibility to build our custom date\nparser with the help of lambda functions as shown below:\nNumpy Interview Questions\n60.   What do you understand by NumPy?\nNumPy is one of the most popular, easy-to-use, versatile, open-source, python-based,\ngeneral-purpose package that is used for processing arrays. NumPy is short for\nNUMerical PYthon. This is very famous for its highly optimized tools that result in\nhigh performance and powerful N-Dimensional array processing feature that is\ndesigned expli"
+    },
+    {
+        "chunk_id": 150,
+        "text": "esult in\nhigh performance and powerful N-Dimensional array processing feature that is\ndesigned explicitly to work on complex arrays. Due to its popularity and powerful\nperformance and its flexibility to perform various operations like trigonometric\noperations, algebraic and statistical computations, it is most commonly used in\nperforming scientific computations and various broadcasting functions. The\nfollowing image shows the applications of NumPy:\nPage 52\n© Copyright by Interviewbit\nimport pand"
+    },
+    {
+        "chunk_id": 151,
+        "text": "The\nfollowing image shows the applications of NumPy:\nPage 52\n© Copyright by Interviewbit\nimport pandas as pd \nfrom datetime import datetime \ndateparser = lambda date_val: datetime.strptime(date_val, '%Y-%m-%d %H:%M:%S') \ndf = pd.read_csv(\"some_file.csv\", parse_dates=['datetime_column'], date_parser=datepars\nPython Interview Questions\n61.   How are NumPy arrays advantageous over python lists?\nThe list data structure of python is very highly eﬀicient and is capable of\nperforming various functions."
+    },
+    {
+        "chunk_id": 152,
+        "text": "ist data structure of python is very highly eﬀicient and is capable of\nperforming various functions. But, they have severe limitations when it comes to\nthe computation of vectorized operations which deals with element-wise\nmultiplication and addition. The python lists also require the information\nregarding the type of every element which results in overhead as type\ndispatching code gets executes every time any operation is performed on any\nelement. This is where the NumPy arrays come into the pi"
+    },
+    {
+        "chunk_id": 153,
+        "text": "very time any operation is performed on any\nelement. This is where the NumPy arrays come into the picture as all the\nlimitations of python lists are handled in NumPy arrays.\nAdditionally, as the size of the NumPy arrays increases, NumPy becomes around\n30x times faster than the Python List. This is because the Numpy arrays are\ndensely packed in the memory due to their homogenous nature. This ensures\nthe memory free up is also faster.\n62.   What are the steps to create 1D, 2D and 3D arrays?\n1D arr"
+    },
+    {
+        "chunk_id": 154,
+        "text": "s\nthe memory free up is also faster.\n62.   What are the steps to create 1D, 2D and 3D arrays?\n1D array creation:\nPage 53\n© Copyright by Interviewbit\nPython Interview Questions\nimport numpy as np \none_dimensional_list = [1,2,4] \none_dimensional_arr = np.array(one_dimensional_list) \nprint(\"1D array is : \",one_dimensional_arr) \n2D array creation:\nimport numpy as np \ntwo_dimensional_list=[[1,2,3],[4,5,6]] \ntwo_dimensional_arr = np.array(two_dimensional_list) \nprint(\"2D array is : \",two_dimensional_a"
+    },
+    {
+        "chunk_id": 155,
+        "text": ",6]] \ntwo_dimensional_arr = np.array(two_dimensional_list) \nprint(\"2D array is : \",two_dimensional_arr)\n3D array creation:\nimport numpy as np \nthree_dimensional_list=[[[1,2,3],[4,5,6],[7,8,9]]] \nthree_dimensional_arr = np.array(three_dimensional_list) \nprint(\"3D array is : \",three_dimensional_arr) \nND array creation: This can be achieved by giving the ndmin attribute. The\nbelow example demonstrates the creation of a 6D array:\nimport numpy as np \nndArray = np.array([1, 2, 3, 4], ndmin=6) \nprint(n"
+    },
+    {
+        "chunk_id": 156,
+        "text": "s the creation of a 6D array:\nimport numpy as np \nndArray = np.array([1, 2, 3, 4], ndmin=6) \nprint(ndArray) \nprint('Dimensions of array:', ndArray.ndim)\n63.   You are given a numpy array and a new column as inputs.\nHow will you delete the second column and replace the\ncolumn with a new column value?\nExample:\nGiven array:\n[[35 53 63] \n[72 12 22] \n[43 84 56]]\nPage 54\n© Copyright by Interviewbit\nPython Interview Questions\nNew Column values:\n[   \n   20  \n   30  \n   40 \n]\nSolution:\nimport numpy as np"
+    },
+    {
+        "chunk_id": 157,
+        "text": "on Interview Questions\nNew Column values:\n[   \n   20  \n   30  \n   40 \n]\nSolution:\nimport numpy as np \n#inputs \ninputArray = np.array([[35,53,63],[72,12,22],[43,84,56]]) \nnew_col = np.array([[20,30,40]]) \n# delete 2nd column \narr = np.delete(inputArray , 1, axis = 1) \n#insert new_col to array \narr = np.insert(arr , 1, new_col, axis = 1) \nprint (arr) \n64.   How will you eﬀiciently load data from a text file?\nWe can use the method \nnumpy.loadtxt() which can automatically read the file’s\nheader and "
+    },
+    {
+        "chunk_id": 158,
+        "text": "ext file?\nWe can use the method \nnumpy.loadtxt() which can automatically read the file’s\nheader and footer lines and the comments if any.\nThis method is highly eﬀicient and even if this method feels less eﬀicient, then the\ndata should be represented in a more eﬀicient format such as CSV etc. Various\nalternatives can be considered depending on the version of NumPy used.\nFollowing are the file formats that are supported:\nPage 55\n© Copyright by Interviewbit\nPython Interview Questions\nText files: Th"
+    },
+    {
+        "chunk_id": 159,
+        "text": "ts that are supported:\nPage 55\n© Copyright by Interviewbit\nPython Interview Questions\nText files: These files are generally very slow, huge but portable and are human-\nreadable.\nRaw binary: This file does not have any metadata and is not portable. But they\nare fast.\nPickle: These are borderline slow and portable but depends on the NumPy\nversions.\nHDF5: This is known as the High-Powered Kitchen Sink format which supports\nboth PyTables and h5py format.\n.npy: This is NumPy's native binary data form"
+    },
+    {
+        "chunk_id": 160,
+        "text": "k format which supports\nboth PyTables and h5py format.\n.npy: This is NumPy's native binary data format which is extremely simple,\neﬀicient and portable.\n65.   How will you read CSV data into an array in NumPy?\nThis can be achieved by using the genfromtxt() method by setting the delimiter as a\ncomma.\nfrom numpy import genfromtxt \ncsv_data = genfromtxt('sample_file.csv', delimiter=',')\n66.   How will you sort the array based on the Nth column?\nFor example, consider an array arr.\narr = np.array([[8"
+    },
+    {
+        "chunk_id": 161,
+        "text": "l you sort the array based on the Nth column?\nFor example, consider an array arr.\narr = np.array([[8, 3, 2], \n          [3, 6, 5], \n          [6, 1, 4]])\nLet us try to sort the rows by the 2nd column so that we get:\n[[6, 1, 4], \n[8, 3, 2], \n[3, 6, 5]]\nWe can do this by using the sort() method in numpy as:\nPage 56\n© Copyright by Interviewbit\nPython Interview Questions\nimport numpy as np \narr = np.array([[8, 3, 2], \n          [3, 6, 5], \n          [6, 1, 4]]) \n#sort the array using np.sort \narr = "
+    },
+    {
+        "chunk_id": 162,
+        "text": "rray([[8, 3, 2], \n          [3, 6, 5], \n          [6, 1, 4]]) \n#sort the array using np.sort \narr = np.sort(arr.view('i8,i8,i8'), \n       order=['f1'], \n       axis=0).view(np.int)\nWe can also perform sorting and that too inplace sorting by doing:\narr.view('i8,i8,i8').sort(order=['f1'], axis=0)\n67.   How will you find the nearest value in a given numpy array?\nWe can use the argmin() method of numpy as shown below:\nimport numpy as np \ndef find_nearest_value(arr, value): \n   arr = np.asarray(arr) "
+    },
+    {
+        "chunk_id": 163,
+        "text": "y as shown below:\nimport numpy as np \ndef find_nearest_value(arr, value): \n   arr = np.asarray(arr) \n   idx = (np.abs(arr - value)).argmin() \n   return arr[idx] \n#Driver code \narr = np.array([ 0.21169,  0.61391, 0.6341, 0.0131, 0.16541,  0.5645,  0.5742]) \nvalue = 0.52\nprint(find_nearest_value(arr, value)) # Prints 0.5645\n68.   How will you reverse the numpy array using one line of\ncode?\nThis can be done as shown in the following:\nreversed_array = arr[::-1]\nwhere arr = original given array, reve"
+    },
+    {
+        "chunk_id": 164,
+        "text": "be done as shown in the following:\nreversed_array = arr[::-1]\nwhere arr = original given array, reverse_array is the resultant aȅer reversing all\nelements in the input.\n69.   How will you find the shape of any given NumPy array?\nPage 57\n© Copyright by Interviewbit\nPython Interview Questions\nWe can use the shape attribute of the numpy array to find the shape. It returns the\nshape of the array in terms of row count and column count of the array.\nimport numpy as np \narr_two_dim = np.array([(\"x1\",\"x"
+    },
+    {
+        "chunk_id": 165,
+        "text": "rms of row count and column count of the array.\nimport numpy as np \narr_two_dim = np.array([(\"x1\",\"x2\", \"x3\",\"x4\"), \n             (\"x5\",\"x6\", \"x7\",\"x8\" )]) \narr_one_dim = np.array([3,2,4,5,6]) \n# find and print shape\nprint(\"2-D Array Shape: \", arr_two_dim.shape) \nprint(\"1-D Array Shape: \", arr_one_dim.shape) \n\"\"\" \nOutput: \n2-D Array Shape:  (2, 4) \n1-D Array Shape:  (5,) \n\"\"\"\nPython Libraries Interview Questions\n70.   Diﬀerentiate between a package and a module in python.\nThe module is a single "
+    },
+    {
+        "chunk_id": 166,
+        "text": "rview Questions\n70.   Diﬀerentiate between a package and a module in python.\nThe module is a single python file. A module can import other modules (other python\nfiles) as objects. Whereas, a package is the folder/directory where diﬀerent sub-\npackages and the modules reside.\nA python module is created by saving a file with the extension of \n.py . This file will\nhave classes and functions that are reusable in the code as well as across modules.\nA python package is created by following the below s"
+    },
+    {
+        "chunk_id": 167,
+        "text": "reusable in the code as well as across modules.\nA python package is created by following the below steps:\nCreate a directory and give a valid name that represents its operation.\nPlace modules of one kind in this directory.\nCreate \n__init__.py file in this directory. This lets python know the directory\nwe created is a package. The contents of this package can be imported across\ndiﬀerent modules in other packages to reuse the functionality.\n71.   What are some of the most commonly used built-in mo"
+    },
+    {
+        "chunk_id": 168,
+        "text": "other packages to reuse the functionality.\n71.   What are some of the most commonly used built-in modules\nin Python?\nPython modules are the files having python code which can be functions, variables or\nclasses. These go by .py extension. The most commonly available built-in modules\nare:\nPage 58\n© Copyright by Interviewbit\nPython Interview Questions\nos\nmath\nsys\nrandom\nre\ndatetime\nJSON\n72.   What are lambda functions?\nLambda functions are generally inline, anonymous functions represented by a sing"
+    },
+    {
+        "chunk_id": 169,
+        "text": "e lambda functions?\nLambda functions are generally inline, anonymous functions represented by a single\nexpression. They are used for creating function objects during runtime. They can\naccept any number of parameters. They are usually used where functions are\nrequired only for a short period. They can be used as:\nmul_func = lambda x,y : x*y \nprint(mul_func(6, 4)) \n# Output: 24\n73.   How can you generate random numbers?\nPython provides a module called random using which we can generate random\nnumb"
+    },
+    {
+        "chunk_id": 170,
+        "text": "erate random numbers?\nPython provides a module called random using which we can generate random\nnumbers.\nWe have to import a random module and call the \nrandom() method as shown\nbelow:\nThe random() method generates float values lying between 0 and 1\nrandomly.\n import random \n print(random.random())\nTo generate customised random numbers between specified ranges, we can use\nthe \nrandrange() method\nSyntax: \nrandrange(beginning, end, step)\nFor example:\nPage 59\n© Copyright by Interviewbit\nPython Inte"
+    },
+    {
+        "chunk_id": 171,
+        "text": "yntax: \nrandrange(beginning, end, step)\nFor example:\nPage 59\n© Copyright by Interviewbit\nPython Interview Questions\nimport random \nprint(random.randrange(5,100,2))\n74.   Can you easily check if all characters in the given string is\nalphanumeric?\nThis can be easily done by making use of the isalnum() method that returns true in\ncase the string has only alphanumeric characters.\nFor Example -\n\"abdc1321\".isalnum() #Output: True\n\"xyz@123$\".isalnum() #Output: False\nAnother way is to use \nmatch() metho"
+    },
+    {
+        "chunk_id": 172,
+        "text": "21\".isalnum() #Output: True\n\"xyz@123$\".isalnum() #Output: False\nAnother way is to use \nmatch() method from the re (regex) module as shown:\nimport re \nprint(bool(re.match('[A-Za-z0-9]+$','abdc1321'))) # Output: True\nprint(bool(re.match('[A-Za-z0-9]+$','xyz@123$'))) # Output: False\n75.   What are the diﬀerences between pickling and unpickling?\nPickling is the conversion of python objects to binary form. Whereas, unpickling is the\nconversion of binary form data to python objects. The pickled object"
+    },
+    {
+        "chunk_id": 173,
+        "text": "orm. Whereas, unpickling is the\nconversion of binary form data to python objects. The pickled objects are used for\nstoring in disks or external memory locations. Unpickled objects are used for getting\nthe data back as python objects upon which processing can be done in python.\nPython provides a \npickle module for achieving this. Pickling uses the\npickle.dump() method to dump python objects into disks. Unpickling uses the\npickle.load() method to get back the data as python objects.\nPage 60\n© Copy"
+    },
+    {
+        "chunk_id": 174,
+        "text": "sks. Unpickling uses the\npickle.load() method to get back the data as python objects.\nPage 60\n© Copyright by Interviewbit\nPython Interview Questions\n76.   Define GIL.\nGIL stands for Global Interpreter Lock. This is a mutex used for limiting access to\npython objects and aids in eﬀective thread synchronization by avoiding deadlocks.\nGIL helps in achieving multitasking (and not parallel computing). The following\ndiagram represents how GIL works.\nPage 61\n© Copyright by Interviewbit\nPython Interview "
+    },
+    {
+        "chunk_id": 175,
+        "text": "he following\ndiagram represents how GIL works.\nPage 61\n© Copyright by Interviewbit\nPython Interview Questions\nBased on the above diagram, there are three threads. First Thread acquires the GIL\nfirst and starts the I/O execution. When the I/O operations are done, thread 1 releases\nthe acquired GIL which is then taken up by the second thread. The process repeats\nand the GIL are used by diﬀerent threads alternatively until the threads have\ncompleted their execution. The threads not having the GIL l"
+    },
+    {
+        "chunk_id": 176,
+        "text": "ads alternatively until the threads have\ncompleted their execution. The threads not having the GIL lock goes into the waiting\nstate and resumes execution only when it acquires the lock.\n77.   Define PYTHONPATH.\nIt is an environment variable used for incorporating additional directories during the\nimport of a module or a package. PYTHONPATH is used for checking if the imported\npackages or modules are available in the existing directories. Not just that, the\ninterpreter uses this environment varia"
+    },
+    {
+        "chunk_id": 177,
+        "text": "re available in the existing directories. Not just that, the\ninterpreter uses this environment variable to identify which module needs to be\nloaded.\n78.   Define PIP.\nPIP stands for Python Installer Package. As the name indicates, it is used for installing\ndiﬀerent python modules. It is a command-line tool providing a seamless interface\nfor installing diﬀerent python modules. It searches over the internet for the package\nand installs them into the working directory without the need for any inter"
+    },
+    {
+        "chunk_id": 178,
+        "text": "internet for the package\nand installs them into the working directory without the need for any interaction\nwith the user. The syntax for this is:\npip install <package_name>\n79.   Are there any tools for identifying bugs and performing\nstatic analysis in python?\nYes, there are tools like PyChecker and Pylint which are used as static analysis and\nlinting tools respectively. PyChecker helps find bugs in python source code files and\nraises alerts for code issues and their complexity. Pylint checks f"
+    },
+    {
+        "chunk_id": 179,
+        "text": " in python source code files and\nraises alerts for code issues and their complexity. Pylint checks for the module’s\ncoding standards and supports diﬀerent plugins to enable custom features to meet\nthis requirement.\n80.   Diﬀerentiate between deep and shallow copies.\nPage 62\n© Copyright by Interviewbit\nPython Interview Questions\nShallow copy does the task of creating new objects storing references of original\nelements. This does not undergo recursion to create copies of nested objects. It\njust co"
+    },
+    {
+        "chunk_id": 180,
+        "text": "of original\nelements. This does not undergo recursion to create copies of nested objects. It\njust copies the reference details of nested objects.\nDeep copy creates an independent and new copy of an object and even copies\nall the nested objects of the original element recursively.\n81.   What is main function in python? How do you invoke it?\nIn the world of programming languages, the main is considered as an entry point of\nexecution for a program. But in python, it is known that the interpreter se"
+    },
+    {
+        "chunk_id": 181,
+        "text": "red as an entry point of\nexecution for a program. But in python, it is known that the interpreter serially\ninterprets the file line-by-line. This means that python does not provide \nmain()\nfunction explicitly. But this doesn't mean that we cannot simulate the execution of\nmain. This can be done by defining user-defined \nmain() function and by using the\n__name__ property of python file. This \n__name__ variable is a special built-in\nvariable that points to the name of the current module. This can "
+    },
+    {
+        "chunk_id": 182,
+        "text": "e__ variable is a special built-in\nvariable that points to the name of the current module. This can be done as shown\nbelow:\ndef main(): \n   print(\"Hi Interviewbit!\") \nif __name__==\"__main__\": \n   main()\nPython Programming Examples\n82.   Write python function which takes a variable number of\narguments.\nA function that takes variable arguments is called a function prototype. Syntax:\ndef function_name(*arg_list)\nFor example:\nPage 63\n© Copyright by Interviewbit\nPython Interview Questions\ndef func(*v"
+    },
+    {
+        "chunk_id": 183,
+        "text": "e(*arg_list)\nFor example:\nPage 63\n© Copyright by Interviewbit\nPython Interview Questions\ndef func(*var): \n   for i in var: \n       print(i) \nfunc(1) \nfunc(20,1,6)\nThe * in the function argument represents variable arguments in the function.\n83.   WAP (Write a program) which takes a sequence of numbers\nand check if all numbers are unique.\nYou can do this by converting the list to set by using set() method and comparing the\nlength of this set with the length of the original list. If found equal, r"
+    },
+    {
+        "chunk_id": 184,
+        "text": " method and comparing the\nlength of this set with the length of the original list. If found equal, return True.\ndef check_distinct(data_list): \n if len(data_list) == len(set(data_list)): \n   return True \n else: \n   return False; \nprint(check_distinct([1,6,5,8]))     #Prints True\nprint(check_distinct([2,2,5,5,7,8])) #Prints False\n84.   Write a program for counting the number of every character\nof a given text file.\nThe idea is to use collections and pprint module as shown below:\nimport collection"
+    },
+    {
+        "chunk_id": 185,
+        "text": " given text file.\nThe idea is to use collections and pprint module as shown below:\nimport collections \nimport pprint \nwith open(\"sample_file.txt\", 'r') as data: \n count_data = collections.Counter(data.read().upper()) \n count_value = pprint.pformat(count_data) \nprint(count_value)\n85.   Write a program to check and return the pairs of a given\narray A whose sum value is equal to a target value N.\nPage 64\n© Copyright by Interviewbit\nPython Interview Questions\nThis can be done easily by using the phe"
+    },
+    {
+        "chunk_id": 186,
+        "text": "e 64\n© Copyright by Interviewbit\nPython Interview Questions\nThis can be done easily by using the phenomenon of hashing. We can use a hash map\nto check for the current value of the array, x. If the map has the value of (N-x), then\nthere is our pair.\ndef print_pairs(arr, N): \n   # hash set \n   hash_set = set() \n     \n   for i in range(0, len(arr)): \n       val = N-arr[i] \n       if (val in hash_set):    #check if N-x is there in set, print the pair \n           print(\"Pairs \" + str(arr[i]) + \", \" +"
+    },
+    {
+        "chunk_id": 187,
+        "text": ":    #check if N-x is there in set, print the pair \n           print(\"Pairs \" + str(arr[i]) + \", \" + str(val)) \n       hash_set.add(arr[i]) \n \n# driver code \narr = [1, 2, 40, 3, 9, 4] \nN = 3 \nprint_pairs(arr, N)\n86.   Write a Program to add two integers >0 without using the\nplus operator.\nWe can use bitwise operators to achieve this.\ndef add_nums(num1, num2): \n   while num2 != 0: \n       data = num1 & num2 \n       num1 = num1 ^ num2 \n       num2 = data << 1 \n   return num1 \nprint(add_nums(2, 10)"
+    },
+    {
+        "chunk_id": 188,
+        "text": "m1 & num2 \n       num1 = num1 ^ num2 \n       num2 = data << 1 \n   return num1 \nprint(add_nums(2, 10))\n87.   Write a Program to solve the given equation assuming that\na,b,c,m,n,o are constants:\nax + by = c \nmx + ny = o\nBy solving the equation, we get:\nPage 65\n© Copyright by Interviewbit\nPython Interview Questions\na, b, c, m, n, o = 5, 9, 4, 7, 9, 4 \ntemp = a*n - b*m \nif n != 0: \n   x = (c*n - b*o) / temp \n   y = (a*o - m*c) / temp \n   print(str(x), str(y))\n88.   Write a Program to match a string "
+    },
+    {
+        "chunk_id": 189,
+        "text": "/ temp \n   y = (a*o - m*c) / temp \n   print(str(x), str(y))\n88.   Write a Program to match a string that has the letter ‘a’\nfollowed by 4 to 8 'b’s.\nWe can use the re module of python to perform regex pattern comparison here.\nimport re \ndef match_text(txt_data): \n       pattern = 'ab{4,8}' \n       if re.search(pattern,  txt_data):    #search for pattern in txt_data \n           return 'Match found' \n       else: \n           return('Match not found') \nprint(match_text(\"abc\"))         #prints Match"
+    },
+    {
+        "chunk_id": 190,
+        "text": " \n       else: \n           return('Match not found') \nprint(match_text(\"abc\"))         #prints Match not found\nprint(match_text(\"aabbbbbc\"))    #prints Match found\n89.   Write a Program to convert date from yyyy-mm-dd format\nto dd-mm-yyyy format.\nWe can again use the re module to convert the date string as shown below:\nimport re \ndef transform_date_format(date): \n   return re.sub(r'(\\d{4})-(\\d{1,2})-(\\d{1,2})', '\\\\3-\\\\2-\\\\1', date) \ndate_input = \"2021-08-01\"\nprint(transform_date_format(date_inpu"
+    },
+    {
+        "chunk_id": 191,
+        "text": "})-(\\d{1,2})', '\\\\3-\\\\2-\\\\1', date) \ndate_input = \"2021-08-01\"\nprint(transform_date_format(date_input))\nYou can also use the datetime module as shown below:\nfrom datetime import datetime \nnew_date = datetime.strptime(\"2021-08-01\", \"%Y-%m-%d\").strftime(\"%d:%m:%Y\") \nprint(new_data)\nPage 66\n© Copyright by Interviewbit\nPython Interview Questions\n90.   Write a Program to combine two diﬀerent dictionaries.\nWhile combining, if you find the same keys, you can add the\nvalues of these same keys. Output th"
+    },
+    {
+        "chunk_id": 192,
+        "text": "es.\nWhile combining, if you find the same keys, you can add the\nvalues of these same keys. Output the new dictionary\nWe can use the Counter method from the collections module\nfrom collections import Counter \nd1 = {'key1': 50, 'key2': 100, 'key3':200} \nd2 = {'key1': 200, 'key2': 100, 'key4':300} \nnew_dict = Counter(d1) + Counter(d2) \nprint(new_dict)\n91.   How will you access the dataset of a publicly shared\nspreadsheet in CSV format stored in Google Drive?\nWe can use the StringIO module from the "
+    },
+    {
+        "chunk_id": 193,
+        "text": "ly shared\nspreadsheet in CSV format stored in Google Drive?\nWe can use the StringIO module from the io module to read from the Google Drive\nlink and then we can use the pandas library using the obtained data source.\nfrom io import StringIO \nimport pandas \ncsv_link = \"https://docs.google.com/spreadsheets/d/...\" \ndata_source = StringIO.StringIO(requests.get(csv_link).content)) \ndataframe = pd.read_csv(data_source) \nprint(dataframe.head())\nConclusion:\nPage 67\n© Copyright by Interviewbit\nPython Inte"
+    },
+    {
+        "chunk_id": 194,
+        "text": "sv(data_source) \nprint(dataframe.head())\nConclusion:\nPage 67\n© Copyright by Interviewbit\nPython Interview Questions\nIn this article, we have seen commonly asked interview questions for a python\ndeveloper. These questions along with regular problem practice sessions will help\nyou crack any python based interviews. Over the years, python has gained a lot of\npopularity amongst the developer’s community due to its simplicity and ability to\nsupport powerful computations. Due to this, the demand for g"
+    },
+    {
+        "chunk_id": 195,
+        "text": "ty due to its simplicity and ability to\nsupport powerful computations. Due to this, the demand for good python developers\nis ever-growing. Nevertheless, to mention, the perks of being a python developer are\nreally good. Along with theoretical knowledge in python, there is an emphasis on the\nability to write good quality code as well. So, keep learning and keep practicing\nproblems and without a doubt, you can crack any interviews.\nImportant Resources:\nPython Basic Programs\nPython MCQ\nPython Comma"
+    },
+    {
+        "chunk_id": 196,
+        "text": "bt, you can crack any interviews.\nImportant Resources:\nPython Basic Programs\nPython MCQ\nPython Commands\nPython Developer Resume\nPython Projects\nDiﬀerence Between Python 2 and 3\nPython Frameworks\nPython Documentation\nNumpy Tutorial\nPython Vs R\nPython Vs Javascript\nDiﬀerence Between C and Python\nPython Vs Java\nFeatures of Python\nGolang vs Python\nPython Developer Skills\nPage 68\n© Copyright by Interviewbit\nIf you're a Python Developer looking to learn more, the guidance of an\nexpert might complement"
+    },
+    {
+        "chunk_id": 197,
+        "text": "ewbit\nIf you're a Python Developer looking to learn more, the guidance of an\nexpert might complement the insights from the book. If you're\ninterested, feel free to register for our FREE upcoming Masterclass,\nwhere you can interact with a top instructor, LIVE\n“As a regular attendee of the Masterclass, I feel the\nmost valuable part about Scaler Academy's\nMasterclasses is the unparalleled content quality that\nthey deliver. A 3 hour Masterclass is very helpful and\ngood enough for the teaching part a"
+    },
+    {
+        "chunk_id": 198,
+        "text": "lity that\nthey deliver. A 3 hour Masterclass is very helpful and\ngood enough for the teaching part and doubt clearing\nsessions. I use the study material they provide before\neach Masterclass. In these times when nothing is for\nfree, these classes are a life-savior!”\n“The session was so well structured and simpliﬁed. 3\nengaging hours of learning, interesting polls and lots\nof doubt resolution! The best part was, he saw curious\nlearners and extended the session for another hour for\npeople who wishe"
+    },
+    {
+        "chunk_id": 199,
+        "text": "est part was, he saw curious\nlearners and extended the session for another hour for\npeople who wished to stay. Recommend it to all\nbeginners out there who are clueless about starting\nHLD themselves! This is a must!!”\nIf interested, don't hesitate to\nattend this FREE session.\nREGISTER NOW\nShubh\nAgrawal\nB.Tech, IIIT,\nBhagalpur\nAbhinav\nKoppula\nDeveloper,\nMckinsey\nC Interview Questions\nPhp Interview Questions\nC Sharp Interview Questions\nWeb Api Interview\nQuestions\nHibernate Interview\nQuestions\nNode "
+    },
+    {
+        "chunk_id": 200,
+        "text": "uestions\nC Sharp Interview Questions\nWeb Api Interview\nQuestions\nHibernate Interview\nQuestions\nNode Js Interview Questions\nCpp Interview Questions\nOops Interview Questions\nDevops Interview Questions\nMachine Learning Interview\nQuestions\nDocker Interview Questions\nMysql Interview Questions\nCss Interview Questions\nLaravel Interview Questions\nAsp Net Interview Questions\nDjango Interview Questions\nDot Net Interview Questions\nKubernetes Interview\nQuestions\nOperating System Interview\nQuestions\nReact Na"
+    },
+    {
+        "chunk_id": 201,
+        "text": "Net Interview Questions\nKubernetes Interview\nQuestions\nOperating System Interview\nQuestions\nReact Native Interview\nQuestions\nAws Interview Questions\nGit Interview Questions\nJava 8 Interview Questions\nMongodb Interview\nQuestions\nDbms Interview Questions\nSpring Boot Interview\nQuestions\nPower Bi Interview Questions\nPl Sql Interview Questions\nTableau Interview\nQuestions\nLinux Interview Questions\nAnsible Interview Questions\nJava Interview Questions\nJenkins Interview Questions\nPage 69\n© Copyright by I"
+    },
+    {
+        "chunk_id": 202,
+        "text": "le Interview Questions\nJava Interview Questions\nJenkins Interview Questions\nPage 69\n© Copyright by Interviewbit\nLinks to More Interview\nQuestions\n"
+    }
+]
