@@ -1,0 +1,38 @@
+[
+    {
+        "chunk_id": 0,
+        "text": "Lokesh Kapade \nNashik, Maharashtra \n+91 8055667821 \n   \n lokeshkapade97@gmail.com \n Lokesh_Kapade_LinkedIn \nEducation \n \nCDAC Noida                                                                                                                                      March 2022 – September 2022 \nPost-Graduation Diploma in Big Data Analytics \n                      Noida, India \nShatabdi institute of Engineering and Research, Nashik                                      July 2015 – November 2020 \nB.E "
+    },
+    {
+        "chunk_id": 1,
+        "text": "ngineering and Research, Nashik                                      July 2015 – November 2020 \nB.E Mechanical \n        Maharashtra, India \nExperience \n \nSoftware Trainee: \nAtyeti Inc, Pune \nOctober 2024 - Present \n- \nDeveloping Python scripts to automate repetitive and manual data processing tasks, improving operational efficiency and \nreducing errors. \n- \nBuilt robust Python-based solutions to process various file formats including JSON, CSV, and log files, leveraging Pandas and \nNumPy for dat"
+    },
+    {
+        "chunk_id": 2,
+        "text": "rocess various file formats including JSON, CSV, and log files, leveraging Pandas and \nNumPy for data manipulation and transformation. \n- \nWorked with object-oriented design principles to create modular, scalable, and maintainable codebases. \n- \nGained hands-on experience with PySpark and foundational data engineering concepts in Databricks, enabling data \ntransformation, filtering, and exploratory analysis. \n- \nDeveloped a FastAPI-based Blog Platform with JWT authentication, SQLAlchemy ORM, and"
+    },
+    {
+        "chunk_id": 3,
+        "text": "y analysis. \n- \nDeveloped a FastAPI-based Blog Platform with JWT authentication, SQLAlchemy ORM, and Pydantic schemas. \n- \nImplemented modular CRUD operations, secure login, and RESTful APIs for users and blogs. \nProjects \n \nTrading Order Matching System | Python | Multithreading | PyTest | OOP \n- Designed and developed a complete electronic trading platform in Python that ingests, validates, matches, and executes financial \norders across multiple asset classes using a high-performance price–tim"
+    },
+    {
+        "chunk_id": 4,
+        "text": "hes, and executes financial \norders across multiple asset classes using a high-performance price–time priority algorithm. \n- Implemented thread-safe order processing with the Singleton design pattern and locking mechanisms to ensure data integrity \nunder heavy concurrent workloads, along with support for partial fills and real-time order status management. \n- Built automated tests using PyTest to verify correct functionality, FIFO order execution, validation handling, partial fills, and multi-\nt"
+    },
+    {
+        "chunk_id": 5,
+        "text": "verify correct functionality, FIFO order execution, validation handling, partial fills, and multi-\nthreaded performance. \n      \nBlog API Platform | FastAPI | PostgreSQL | SQLAlchemy | Alembic | Render \n- Developed and deployed a fully functional RESTful Blog API using FastAPI, leveraging asynchronous request handling for high \nperformance. \n- Designed and implemented relational data models (User, Post, Vote) using SQLAlchemy ORM with a PostgreSQL backend. \n- Managed schema evolution and databas"
+    },
+    {
+        "chunk_id": 6,
+        "text": " Post, Vote) using SQLAlchemy ORM with a PostgreSQL backend. \n- Managed schema evolution and database versioning via Alembic migrations. \n- Integrated OAuth2 with JWT authentication for secure login, token-based authorization, and route protection using FastAPI \ndependencies. Implemented password hashing with Passlib (bcrypt) and token verification with python-jose for enhanced data \nsecurity. \n \nCertification \n \n• Post Graduation Diploma in Big Data Analytics. \n• The Ultimate MySQL Boot Camp (U"
+    },
+    {
+        "chunk_id": 7,
+        "text": "Certification \n \n• Post Graduation Diploma in Big Data Analytics. \n• The Ultimate MySQL Boot Camp (Udemy). \n• The Ultimate Beginners Guide to Python NumPy (Udemy). \n• The Ultimate Beginners Guide to Data Analysis with Pandas (Udemy). \n• KDB+/q Developer Level 2 & Level 3. \n \nSkills \n \nProgramming Languages: Python, KDB+/q. \nDatabases: MySQL, MongoDB. \nTechnologies/Frameworks/Libraries: Databricks (Basics), Fast API, PySpark (Basics), NumPy, Pandas, PyTest. \nData Visualization Tools: Power BI, Ta"
+    },
+    {
+        "chunk_id": 8,
+        "text": "(Basics), Fast API, PySpark (Basics), NumPy, Pandas, PyTest. \nData Visualization Tools: Power BI, Tableau. \nSoftware Development Tools: Visual Studio Code, GitHub. \nSoft Skills: Time management / Proper Planning, Leadership Quality. \n"
+    }
+]

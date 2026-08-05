@@ -1,21 +1,15 @@
 from fastapi import FastAPI
-from app.schemas import ChatRequest, ChatResponse
+from app.routers.chat import router as chat_router
 from app.routers.documents import router as document_router
-from app.llm_service import ask_llm
+from app.routers.web_search import router as web_search_router
 
 app = FastAPI(title="Company Document AI")
 app.include_router(document_router)
+app.include_router(chat_router)
+app.include_router(web_search_router)
 
 @app.get("/")
 def home():
     return {"message": "Company Document AI Assistant"}
 
-
-@app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
-    answer = ask_llm(request.question)
-
-    return ChatResponse(
-        answer=answer # type: ignore
-    )
 
