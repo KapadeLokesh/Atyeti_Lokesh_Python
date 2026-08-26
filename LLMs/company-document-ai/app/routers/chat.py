@@ -25,3 +25,6 @@ def chat(request: ChatRequest) -> ChatResponse:
 
     metadata = [SourceMetadata(**source) for source in sources]
     return ChatResponse(answer=answer, sources=metadata)
+
+
+ 
